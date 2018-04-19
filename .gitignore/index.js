@@ -68,14 +68,12 @@ bot.on("message", message => {
 });
 
 bot.on("message", message => {
-    if (message.content === "?help") {
-    message.channel.sendMessage("```Markdown
-#Voici les commandes actuellement disponible#
-?okina             ?spara
-?cora               ?ayu
-?nitroz            ?avatar
-```");
-  }
+  if (message.content === "?help") {
+  message.channel.sendMessage("Voici les commandes actuellement disponible") 
+  ("?okina             ?spara")
+  ("?cora               ?ayu")
+  ("?nitroz            ?avatar");
+}
 
 });
 
