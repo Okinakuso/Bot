@@ -75,9 +75,22 @@ bot.on("message", message => {
 });
 
 bot.on("message", message => {
-    if (message.content === "?pomme") {
-    message.channel.sendMessage("?pomme");
+    if (message.content === "?pommedeterre") {
+    message.channel.sendMessage("?pommedeterre");
   }
 
 });
 
+bot.on("message", message => {
+    if (message.content === "?start") {
+    message.channel.sendMessage("!start");
+  }
+
+});
+
+bot.on("message", message => {
+    if (message.content === "?pick") {
+    message.channel.sendMessage("!pick charmander");
+  }
+
+});
