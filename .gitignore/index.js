@@ -9,6 +9,16 @@ bot.on("ready", function() {
 
 bot.login(process.env.TOKEN);
 
+client.on('ready', () => {
+  console.log('I am ready!');
+});
+
+client.on('message', message => {
+  if (message.content === "?avatar") {
+    message.reply(message.author.avatarURL);
+  }
+});
+
 bot.on("message", message => {
     if (message.content === "?ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi F** de ta mere la ch***ne");
@@ -57,3 +67,4 @@ bot.on("message", message => {
   }
 
 });
+
