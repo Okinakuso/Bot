@@ -25,7 +25,7 @@ bot.on("message", message => {
 
 bot.on("message", message => {
     if (message.content === "?cora") {
-    message.channel.sendMessage("La plus belle femme du monde et aussi futur femme de okina");
+    message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
   }
 
 });
