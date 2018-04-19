@@ -67,9 +67,19 @@ bot.on("message", message => {
 
 });
 
+
+
 bot.on("message", message => {
+
   if (message.content === "?help") {
-  message.channel.sendMessage("Voici les commandes actuellement disponible  ?okina ?spara ?cora ?ayu ?nitroz ?avatar")
+    var help_embed = new Discord.RichEmbed()
+    .setColor("#B638FF")
+    .addField("Les commandes du bot !")
+    .addField("?okina   ?cora")
+    .addField("?nitroz   ?spara")
+    .addField("?ayu   ?avatar")
+    console.log("commande Help demandée !");
+
   }
 
 });
