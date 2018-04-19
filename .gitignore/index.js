@@ -64,3 +64,9 @@ bot.on("message", message => {
 
 });
 
+bot.on('message', message => {
+  if (message.content === "?avatar") {
+    message.channel.sendMessage(message.author.avatarURL);
+  }
+});
+
