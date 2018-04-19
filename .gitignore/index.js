@@ -70,14 +70,14 @@ bot.on("message", message => {
 
 
 bot.on("message", message => {
-
   if (message.content === "?help") {
     var help_embed = new Discord.RichEmbed()
-    .setColor("#B638FF")
-    .addField("Les commandes du bot !")
-    .addField("?okina   ?cora")
-    .addField("?nitroz   ?spara")
-    .addField("?ayu   ?avatar")
+      .setColor("#B638FF")
+      .addField("Les commandes du bot !")
+      .addField("?okina   ?cora")
+      .addField("?nitroz   ?spara")
+      .addField("?ayu   ?avatar")
+    message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
   }
