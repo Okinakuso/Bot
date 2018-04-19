@@ -74,9 +74,9 @@ bot.on("message", message => {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes du bot !")
-      .addField("?okina   ?cora")
-      .addField("?nitroz   ?spara")
-      .addField("?ayu   ?avatar")
+      .addField("commandes p.1" , "?okina   ?cora")
+      .addField("commandes p.2" , "?nitroz   ?spara")
+      .addField("commandes p.3" , "?ayu      ?avatar")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
