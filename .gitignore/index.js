@@ -32,7 +32,7 @@ bot.on("message", message => {
 
 bot.on("message", message => {
     if (message.content === "?okina") {
-    message.channel.sendMessage("Sombre en***er qui ressent le besoin d etre superieur au autres et est aussi le Fondateur");
+    message.channel.sendMessage("Sombre en***er qui ressent le besoin d etre superieur au autres et qui est aussi le Fondateur des serveurs");
   }
 
 });
