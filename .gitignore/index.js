@@ -14,7 +14,6 @@ client.on('ready', () => {
 });
 
 
-
 bot.on("message", message => {
     if (message.content === "?ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi F** de ta mere la ch***ne");
