@@ -15,7 +15,7 @@ client.on('ready', () => {
 
 bot.on('message', message => {
   if (message.content === "?avatar") {
-    message.reply(message.author.avatarURL);
+    message.channel.sendMessage(message.author.avatarURL);
   }
 });
 
