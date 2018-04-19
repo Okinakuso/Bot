@@ -73,7 +73,7 @@ bot.on("message", message => {
   if (message.content === "?help") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes du bot !" ,  "Voici le ?help menu")
+      .addField("Les commandes du bot !" ,  "Voici le menu ?help)
       .addField("commandes p.1" , "?okina   ?cora")
       .addField("commandes p.2" , "?nitroz   ?spara")
       .addField("commandes p.3" , "?ayu      ?avatar")
