@@ -13,11 +13,7 @@ client.on('ready', () => {
   console.log('I am ready!');
 });
 
-bot.on('message', message => {
-  if (message.content === "?avatar") {
-    message.channel.sendMessage(message.author.avatarURL);
-  }
-});
+
 
 bot.on("message", message => {
     if (message.content === "?ping") {
