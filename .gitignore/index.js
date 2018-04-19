@@ -9,6 +9,20 @@ bot.on("ready", function() {
 
 bot.login(process.env.TOKEN);
 
+
+
+const client = new Discord.Client();
+
+
+client.on('message', message => {
+  if (message.content === "?avatar") {
+    message.channel.sendMessage(message.author.avatarURL);
+  }
+});
+
+
+client.login(token);
+
 bot.on("message", message => {
     if (message.content === "?ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi F** de ta mere la ch***ne");
