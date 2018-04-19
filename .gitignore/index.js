@@ -69,10 +69,15 @@ bot.on("message", message => {
 
 bot.on("message", message => {
   if (message.content === "?help") {
-  message.channel.sendMessage("Voici les commandes actuellement disponible  -?okina -?spara -?cora -?ayu -?nitroz -?avatar")
+  message.channel.sendMessage("Voici les commandes actuellement disponible  ?okina ?spara ?cora ?ayu ?nitroz ?avatar")
   }
 
 });
 
+bot.on("message", message => {
+    if (message.content === "?pomme") {
+    message.channel.sendMessage("?pomme");
+  }
 
+});
 
