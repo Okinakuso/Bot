@@ -36,3 +36,17 @@ bot.on("message", message => {
   }
 
 });
+
+bot.on("message", message => {
+    if (message.content === "?spara") {
+    message.channel.sendMessage("Rien a dire sur ce co***rd de flemmard...");
+  }
+
+});
+
+bot.on("message", message => {
+    if (message.content === "?ayu") {
+    message.channel.sendMessage("Quoi ?? elle est encore ici elle ?");
+  }
+
+});
