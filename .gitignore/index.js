@@ -27,14 +27,14 @@ bot.on("message", message => {
 
 bot.on("message", message => {
     if (message.content === "?ching") {
-    message.channel.sendMessage("tu es raciste");
+    message.channel.sendMessage("tu es raciste !");
   }
 
 });
 
 bot.on("message", message => {
     if (message.content === "?nitroz") {
-    message.channel.sendMessage("Un gros con qui dit tout le temps <<comme tu veut>>");
+    message.channel.sendMessage("Un gros con qui dit tout le temps <<comme tu veux>>");
   }
 
 });
@@ -48,7 +48,7 @@ bot.on("message", message => {
 
 bot.on("message", message => {
     if (message.content === "?okina") {
-    message.channel.sendMessage("Sombre en***er qui ressent le besoin d etre superieur au autres et qui est aussi le Fondateur des serveurs");
+    message.channel.sendMessage("Sombre en***er qui ressent le besoin d etre superieur aux autres et qui est aussi le Fondateur des serveurs");
   }
 
 });
