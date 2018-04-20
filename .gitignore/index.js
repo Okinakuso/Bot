@@ -98,13 +98,13 @@ bot.on("message", message => {
 });
 
 bot.on("message", message => {
-  if (message.content === "-forum") {
-    var help_embed = new Discord.RichEmbed()
-    setURL(url) {
+  if (message.content === "-forum") 
+    var help_embed = new Discord.HTMLElement()
+    setURL(url); {
     this.url = ("https://fusionnetwork.online/forum/index.php?forums/");
-    message.channel.sendEmbed(help_embed);
+    message.channel.sendEmbed(HTMLElement);
     console.log("commande forum demandée !");
-
+  
   }
-
+  
 });
