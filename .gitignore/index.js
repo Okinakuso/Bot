@@ -87,24 +87,16 @@ bot.on("message", message => {
 
 bot.on("message", message => {
   if (message.content === "-site") {
-    var help_embed = new Discord.RichEmbed()
-      .setColor("#B638FF")
-      .url("https://fusionnetwork.online/")
-    message.channel.sendEmbed(help_embed);
-    console.log("commande site demandée !");
+    message.channel.sendMessage("https://fusionnetwork.online/");
 
   }
 
 });
 
 bot.on("message", message => {
-  if (message.content === "-forum") 
-    var help_embed = new Discord.HTMLElement()
-    setURL(url); {
-    this.url = ("https://fusionnetwork.online/forum/index.php?forums/");
-    message.channel.sendEmbed(HTMLElement);
-    console.log("commande forum demandée !");
-  
+  if (message.content === "-forum") {
+    message.channel.sendMessage("https://fusionnetwork.online/forum/index.php?forums/");
+
   }
-  
+
 });
