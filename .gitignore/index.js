@@ -100,8 +100,8 @@ bot.on("message", message => {
 bot.on("message", message => {
   if (message.content === "-forum") {
     var help_embed = new Discord.RichEmbed()
-      .setColor("#B638FF")
-      .url("https://fusionnetwork.online/forum/index.php?forums/")
+    setURL(url) {
+    this.url = ("https://fusionnetwork.online/forum/index.php?forums/");
     message.channel.sendEmbed(help_embed);
     console.log("commande forum demandée !");
 
