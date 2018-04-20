@@ -70,22 +70,6 @@ bot.on("message", message => {
 
 
 bot.on("message", message => {
-  if (message.content === "-help") {
-    var help_embed = new Discord.RichEmbed()
-      .setColor("#B638FF")
-      .addField("Les commandes du bot !" ,  "Voici le menu -help")
-      .addField("commandes p.1" , "-okina   -cora")
-      .addField("commandes p.2" , "-nitroz   -spara")
-      .addField("commandes p.3" , "-ayu      -avatar")
-      .addField("commandes p.4" , "-site      -forum")
-    message.channel.sendEmbed(help_embed);
-    console.log("commande Help demandée !");
-
-  }
-
-});
-
-bot.on("message", message => {
   if (message.content === "-site") {
     message.channel.sendMessage("https://fusionnetwork.online/");
 
@@ -98,5 +82,45 @@ bot.on("message", message => {
     message.channel.sendMessage("https://fusionnetwork.online/forum/index.php?forums/");
 
   }
+
+});
+
+
+bot.on("message", message => {
+  if (message.content === "-help") {
+    var help_embed = new Discord.RichEmbed()
+      .setColor("#B638FF")
+      .addField("Les commandes du bot !" ,  "Voici le menu -help")
+      .addField("Pour les commandes utiles" , "-help1")
+      .addField("Pour les commandes inutiles" , "-help2")
+    message.channel.sendEmbed(help_embed);
+    console.log("commande Help demandée !");
+
+  }
+
+});
+
+bot.on("message", message => {
+  if (message.content === "-help2") {
+    var help_embed = new Discord.RichEmbed()
+      .setColor("#B638FF")
+      .addField("Les commandes inutiles" , "-okina  -cora  -nitroz -spara  -ayu")
+    message.channel.sendEmbed(help_embed);
+    console.log("commande Help1 demandée !");
+      
+        }
+
+});
+    
+
+bot.on("message", message => {
+  if (message.content === "-help1") {
+    var help_embed = new Discord.RichEmbed()
+      .setColor("#B638FF")
+      .addField("Les commandes utiles" , "-site   -forum    -avatar")
+    message.channel.sendEmbed(help_embed);
+    console.log("commande Help2 demandée !");
+      
+        }
 
 });
