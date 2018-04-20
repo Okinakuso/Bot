@@ -89,7 +89,7 @@ bot.on("message", message => {
   if (message.content === "-site") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .url("Le lien du site"  ,  "https://fusionnetwork.online/")
+      .url("https://fusionnetwork.online/")
     message.channel.sendEmbed(help_embed);
     console.log("commande site demandée !");
 
@@ -101,7 +101,7 @@ bot.on("message", message => {
   if (message.content === "-forum") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .url("Le lien du forum"  ,  "https://fusionnetwork.online/forum/index.php?forums/")
+      .url("https://fusionnetwork.online/forum/index.php?forums/")
     message.channel.sendEmbed(help_embed);
     console.log("commande forum demandée !");
 
