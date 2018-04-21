@@ -16,6 +16,12 @@ function random(min, max) {
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
+function random(min, max) {
+  min = Math.ceil(7);
+  max = Math.floor(9);
+  randnum = Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 bot.on('message', message => {
   if (message.content === "-avatar") {
     message.channel.sendMessage(message.author.avatarURL);
@@ -117,6 +123,29 @@ bot.on('message', message => {
             message.reply("6");
             console.log(randnum);
         }   
+
+  }
+    
+    
+  
+  if (message.content === "-chifoumi") {
+    random();
+
+    if (randnum == 7) {
+      message.reply(":v:");
+      console.log(randnum);
+    }
+
+    if (randnum == 8) {
+      message.reply(":fist:");
+      console.log(randnum);
+    }
+
+
+    if (randnum == 9) {
+      message.reply(":raised_hand:");
+      console.log(randnum);
+    }
 
   }
 
