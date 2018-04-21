@@ -12,15 +12,10 @@ bot.login(process.env.TOKEN);
 
 function random(min, max) {
   min = Math.ceil(0);
-  max = Math.floor(6);
+  max = Math.floor(9);
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
-function random(min, max) {
-  min = Math.ceil(7);
-  max = Math.floor(9);
-  randnum = Math.floor(Math.random() * (max - min + 1) + min);
-}
 
 bot.on('message', message => {
   if (message.content === "-avatar") {
@@ -107,7 +102,6 @@ bot.on('message', message => {
            message.reply("3");
            console.log(randnum);
         }
-
 
         if (randnum == 4){
             message.reply("4");
