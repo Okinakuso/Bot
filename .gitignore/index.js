@@ -12,7 +12,7 @@ bot.login(process.env.TOKEN);
 
 function random(min, max) {
   min = Math.ceil(0);
-  max = Math.floor(5);
+  max = Math.floor(6);
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
@@ -69,37 +69,45 @@ bot.on('message', message => {
 
   }
 
-  if (message.content === "-anime"){
+  if (message.content === "-anime") {
+    message.channel.sendMessage("https://www.randomanime.org/random-anime-game.php");
+
+  }   
+    
+  if (message.content === "-dice"){
       random();   
 
        if (randnum == 1){
-           message.reply("reponse 1");
+           message.reply("1");
           console.log(randnum);
        }
 
        if (randnum == 2){
-           message.reply("reponse 2");
+           message.reply("2");
            console.log(randnum);
        }
 
 
        if (randnum == 3){
-           message.reply("reponse 3");
+           message.reply("3");
            console.log(randnum);
         }
 
 
         if (randnum == 4){
-            message.reply("reponse 4");
+            message.reply("4");
             console.log(randnum);
         }
         
         if (randnum == 5){
-            message.reply("reponse 5");
+            message.reply("5");
             console.log(randnum);
         }
-
       
+        if (randnum == 6){
+            message.reply("6");
+            console.log(randnum);
+        }   
 
   }
 
