@@ -53,7 +53,6 @@ bot.on('message', message => {
   }
 
 
-
   if (message.content === "-ayu") {
     message.channel.sendMessage("Quoi ?? elle est encore ici elle ?");
   }
@@ -137,7 +136,7 @@ bot.on('message', message => {
   if (message.content === "-help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-site   -forum    -avatar")
+      .addField("Les commandes utiles" , "-site -forum  -avatar  -dice  -anime")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
