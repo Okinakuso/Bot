@@ -73,6 +73,16 @@ bot.on('message', message => {
 
   }   
     
+  if (message.content === "-murder") {
+    message.channel.sendMessage("http://cache.gametracker.com/server_info/109.238.10.86:27015/b_560_95_1.png");
+
+  }
+    
+  if (message.content === "-deathrun") {
+    message.channel.sendMessage("http://cache.gametracker.com/server_info/109.238.10.86:27017/b_560_95_1.png");
+
+  }
+    
   if (message.content === "-dice"){
       random();   
 
@@ -136,7 +146,7 @@ bot.on('message', message => {
   if (message.content === "-help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-site -forum  -avatar  -dice  -anime")
+      .addField("Les commandes utiles" , "-site -forum -avatar -dice -anime -murder -deathrun")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
