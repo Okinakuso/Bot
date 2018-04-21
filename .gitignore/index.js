@@ -113,6 +113,11 @@ bot.on("message", message => {
             message.reply("reponse 4");
             console.log(randnum);
         }
+        
+        if (randnum == 5){
+            message.reply("reponse 5");
+            console.log(randnum);
+        }
 
       
 
@@ -164,7 +169,7 @@ bot.on("message", message => {
 
 
 function random(min, max) {
-  min = Math.cell(0);
+  min = Math.ceil(0);
   max = Math.floor(5);
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
