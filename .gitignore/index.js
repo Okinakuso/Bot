@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 var bot = new Discord.Client();
 var randnum = 0
-var randnum = 7
+var randnuv = 7
 
 bot.on("ready", function() {
     bot.user.setGame("-help");
@@ -20,7 +20,7 @@ function random(min, max) {
 function random(min, max) {
   min = Math.ceil(7);
   max = Math.floor(9);
-  randnum = Math.floor(Math.random() * (max -min +1) + min);
+  randnuv = Math.floor(Math.random() * (max -min +1) + min);
 }
 
 
@@ -132,20 +132,20 @@ bot.on('message', message => {
   if (message.content === "-chifoumi") {
     random();
 
-    if (randnum == 7) {
+    if (randnuv == 7) {
       message.reply(":v:");
-      console.log(randnum);
+      console.log(randnuv);
     }
 
-    if (randnum == 8) {
+    if (randnuv == 8) {
       message.reply(":fist:");
-      console.log(randnum);
+      console.log(randnuv);
     }
 
 
-    if (randnum == 9) {
+    if (randnuv == 9) {
       message.reply(":raised_hand:");
-      console.log(randnum);
+      console.log(randnuv);
     }
 
   }
