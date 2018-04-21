@@ -86,6 +86,42 @@ bot.on("message", message => {
 
 });
 
+bot.on("message", message => {
+    if (message.content === "-anime"){
+      random();
+
+    
+
+       if (randnum == 1){
+           message.reply("reponse 1");
+          console.log(randnum);
+       }
+
+       if (randnum == 2){
+           message.reply("reponse 2");
+           console.log(randnum);
+       }
+
+
+       if (randnum == 3){
+           message.reply("reponse 3");
+           console.log(randnum);
+        }
+
+
+        if (randnum == 4){
+            message.reply("reponse 4");
+            console.log(randnum);
+        }
+
+      
+
+  }
+
+
+
+}); 
+
 
 bot.on("message", message => {
   if (message.content === "-help") {
@@ -125,3 +161,10 @@ bot.on("message", message => {
         }
 
 });
+
+
+function random(min, max) {
+  min = Math.cell(0);
+  max = Math.floor(5);
+  randnum = Math.floor(Math.random() * (max -min +1) + min);
+}
