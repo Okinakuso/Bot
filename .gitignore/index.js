@@ -156,28 +156,37 @@ bot.on('message', message => {
       .addField("Les commandes du bot !" ,  "Voici le menu -help")
       .addField("Pour les commandes utiles" , "-help1")
       .addField("Pour les commandes inutiles" , "-help2")
+      .addField("Pour les commandes fun" , "-help3")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
   }
 
-
-  if (message.content === "-help2") {
-    var help_embed = new Discord.RichEmbed()
-      .setColor("#B638FF")
-      .addField("Les commandes inutiles" , "-okina  -cora  -nitroz -spara  -ayu")
-    message.channel.sendEmbed(help_embed);
-    console.log("commande Help1 demandée !");
-      
-  }
-
-
   if (message.content === "-help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-site -forum -avatar -dice -anime -murder -deathrun")
+      .addField("Les commandes utiles" , "-site -forum -murder -deathrun")
+    message.channel.sendEmbed(help_embed);
+    console.log("commande Help1 demandée !");
+      
+  } 
+    
+  if (message.content === "-help2") {
+    var help_embed = new Discord.RichEmbed()
+      .setColor("#B638FF")
+      .addField("Les commandes inutiles" , "-okina -cora -nitroz -spara -ayu")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
+      
+  }
+
+    
+  if (message.content === "-help3") {
+    var help_embed = new Discord.RichEmbed()
+      .setColor("#B638FF")
+      .addField("Les commandes utiles" , "-anime -dice -chifoumi -avatar")
+    message.channel.sendEmbed(help_embed);
+    console.log("commande Help3 demandée !");
       
   }
 
