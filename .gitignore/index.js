@@ -17,11 +17,6 @@ function random(min, max) {
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
-function random(min, max) {
-  min = Math.ceil(7);
-  max = Math.floor(9);
-  randnuv = Math.floor(Math.random() * (max -min +1) + min);
-}
 
 
 bot.on('message', message => {
@@ -82,12 +77,12 @@ bot.on('message', message => {
   }   
     
   if (message.content === "-murder") {
-    message.channel.sendMessage("http://cache.gametracker.com/server_info/109.238.10.86:27015/b_560_95_1.png");
+    message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27015/b/");
 
   }
     
   if (message.content === "-deathrun") {
-    message.channel.sendMessage("http://cache.gametracker.com/server_info/109.238.10.86:27017/b_560_95_1.png");
+    message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27017/b/");
 
   }
     
@@ -132,20 +127,20 @@ bot.on('message', message => {
   if (message.content === "-chifoumi") {
     random();
 
-    if (randnuv == 7) {
+    if (randnum == 7) {
       message.reply(":v:");
-      console.log(randnuv);
+      console.log(randnum);
     }
 
-    if (randnuv == 8) {
+    if (randnum == 8) {
       message.reply(":fist:");
-      console.log(randnuv);
+      console.log(randnum);
     }
 
 
-    if (randnuv == 9) {
+    if (randnum == 9) {
       message.reply(":raised_hand:");
-      console.log(randnuv);
+      console.log(randnum);
     }
 
   }
