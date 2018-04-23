@@ -12,7 +12,7 @@ bot.on("ready", function() {
 bot.login(process.env.TOKEN);
 
 function random(min, max) {
-  min = Math.ceil(0);
+  min = Math.ceil(1);
   max = Math.floor(6);
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
