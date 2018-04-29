@@ -83,8 +83,9 @@ bot.on('message', message => {
     
   if (message.content === "-deathrun") {
     message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27017/b/");
+      
 
-  if (message.content === "-deathrun") {
+  if (message.content === "-ttt") {
     message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27018");
       
       
