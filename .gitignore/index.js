@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 var bot = new Discord.Client();
-var randnum = 1
+var randnum = 0
 
 
 bot.on("ready", function() {
@@ -38,8 +38,10 @@ bot.on('message', message => {
  if (message.content === "-nitroz") {
     message.channel.sendMessage("Un gros con qui dit tout le temps <<comme tu veux>>");
   }
-
-
+    
+ if (message.content === "-spectrum") {
+    message.channel.sendMessage("Un con qui fait que gueuler");
+  }
 
   if (message.content === "-cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
@@ -94,62 +96,39 @@ bot.on('message', message => {
   if (message.content === "-dice"){
       random();   
 
-       if (randnum == 1){
+       if (randnum == 0){
            message.reply("1");
           console.log(randnum);
        }
 
-       if (randnum == 2){
+       if (randnum == 1){
            message.reply("2");
            console.log(randnum);
        }
 
 
-       if (randnum == 3){
+       if (randnum == 2){
            message.reply("3");
            console.log(randnum);
         }
 
-        if (randnum == 4){
+        if (randnum == 3){
             message.reply("4");
             console.log(randnum);
         }
         
-        if (randnum == 5){
+        if (randnum == 4){
             message.reply("5");
             console.log(randnum);
         }
       
-        if (randnum == 6){
+        if (randnum == 5){
             message.reply("6");
             console.log(randnum);
         }   
 
   }
     
-    
-  
-  if (message.content === "-chifoumi") {
-    random();
-
-    if (randnum == 7) {
-      message.reply(":v:");
-      console.log(randnum);
-    }
-
-    if (randnum == 8) {
-      message.reply(":fist:");
-      console.log(randnum);
-    }
-
-
-    if (randnum == 9) {
-      message.reply(":raised_hand:");
-      console.log(randnum);
-    }
-
-  }
-
 
   if (message.content === "-help") {
     var help_embed = new Discord.RichEmbed()
@@ -166,7 +145,7 @@ bot.on('message', message => {
   if (message.content === "-help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-site -forum -murder -deathrun")
+      .addField("Les commandes utiles" , "-site -forum -murder -deathrun -ttt")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
@@ -175,7 +154,7 @@ bot.on('message', message => {
   if (message.content === "-help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , "-okina -cora -nitroz -spara -ayu")
+      .addField("Les commandes inutiles" , "-okina -cora -nitroz -spara -ayu -spectrum")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
@@ -185,7 +164,7 @@ bot.on('message', message => {
   if (message.content === "-help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-anime -dice -chifoumi -avatar")
+      .addField("Les commandes utiles" , "-anime -dice -avatar")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
