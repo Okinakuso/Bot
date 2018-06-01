@@ -35,13 +35,6 @@ bot.on('message', message => {
   }
 
 
- if (message.content === "-nitroz") {
-    message.channel.sendMessage("Un gros con qui dit tout le temps <<comme tu veux>>");
-  }
-    
- if (message.content === "-spectrum") {
-    message.channel.sendMessage("Un con qui fait que gueuler");
-  }
 
   if (message.content === "-cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
@@ -49,49 +42,14 @@ bot.on('message', message => {
 
 
   if (message.content === "-okina") {
-    message.channel.sendMessage("Sombre en***er qui ressent le besoin d etre superieur aux autres et qui est aussi le Fondateur des serveurs");
+    message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Fondateur de la guilde");
   }
 
-
-  if (message.content === "-spara") {
-    message.channel.sendMessage("Rien a dire sur ce co***rd de flemmard...");
-  }
-
-
-  if (message.content === "-ayu") {
-    message.channel.sendMessage("Quoi ?? elle est encore ici elle ?");
-  }
-
-
-  if (message.content === "-site") {
-    message.channel.sendMessage("https://fusionnetwork.online/");
-
-  }
-
-  if (message.content === "-forum") {
-    message.channel.sendMessage("https://fusionnetwork.online/forum/index.php?forums/");
-
-  }
 
   if (message.content === "-anime") {
     message.channel.sendMessage("https://www.randomanime.org/random-anime-game.php");
 
   }   
-    
-  if (message.content === "-murder") {
-    message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27015/b/");
-
-  }
-    
-  if (message.content === "-deathrun") {
-    message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27017/b/");
-      
-
-  if (message.content === "-ttt") {
-    message.channel.sendMessage("https://www.gametracker.com/server_info/109.238.10.86:27018");
-      
-      
-  }
     
   if (message.content === "-dice"){
       random();   
@@ -154,7 +112,7 @@ bot.on('message', message => {
   if (message.content === "-help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , "-okina -cora -nitroz -spara -ayu -spectrum")
+      .addField("Les commandes inutiles" , "-okina -cora")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
@@ -164,7 +122,7 @@ bot.on('message', message => {
   if (message.content === "-help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-anime -dice -avatar")
+      .addField("Les commandes fun" , "-anime -dice -avatar")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
