@@ -51,6 +51,17 @@ bot.on('message', message => {
 
   }   
     
+  if (message.content === "-stuff") {
+    message.channel.sendMessage("http://dofusfashionista.com/");
+
+  }   
+    
+  if (message.content === "-kamas") {
+    message.channel.sendMessage("https://www.iflamme.com/index.html");
+
+  }  
+    
+    
   if (message.content === "-dice"){
       random();   
 
@@ -103,7 +114,7 @@ bot.on('message', message => {
   if (message.content === "-help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-site -forum -murder -deathrun -ttt")
+      .addField("Les commandes utiles" , "-kamas  -stuff")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
