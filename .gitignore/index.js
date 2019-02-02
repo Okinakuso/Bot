@@ -48,7 +48,14 @@ bot.on('message', message => {
   if (message.content === ".soduxy") {
     message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/6/1549115880-plop.png");
   }
+    
+  if (message.content === ".soxis") {
+    message.channel.sendMessage("Un mec qui pense etre le boss mais qui a en faite un complexe de supériorité donc nous le laisson faire.");
+  }
 
+  if (message.content === ".juiverie") {
+    message.channel.sendMessage("Une juiverie est, au Moyen Âge, un quartier où habitent les Juifs ; il ne s agit pas nécessairement d'un ghetto, ou d un cancel, car ces derniers supposent l obligation de résidence là où la juiverie renvoie simplement à une présence juive, pas nécessairement contrainte");
+  }
 
   if (message.content === ".anime") {
     message.channel.sendMessage("https://www.randomanime.org/list/?l=703869fb&view=single&lang=any");
