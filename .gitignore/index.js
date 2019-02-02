@@ -93,15 +93,15 @@ bot.on('message', message => {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes du bot !" ,  "Voici le menu .help")
-      .addField("Pour les commandes inutiles" , ".help2")
-      .addField("Pour les commandes fun" , ".help3")
+      .addField("Pour les commandes inutiles" , ".help1")
+      .addField("Pour les commandes fun" , ".help2")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
   }
 
     
-  if (message.content === ".help2") {
+  if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".okina .cora")
@@ -111,7 +111,7 @@ bot.on('message', message => {
   }
 
     
-  if (message.content === "-help3") {
+  if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes fun" , ".anime .dice .avatar")
