@@ -130,7 +130,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".okina .cora")
+      .addField("Les commandes inutiles" , ".okina .cora .soxis .soduxy .juiverie")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
