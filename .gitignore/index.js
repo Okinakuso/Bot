@@ -47,7 +47,7 @@ bot.on('message', message => {
 
 
   if (message.content === ".anime") {
-    message.channel.sendMessage("https://www.randomanime.org/random-anime-game.php");
+    message.channel.sendMessage("https://www.randomanime.org/list/?l=703869fb&view=single&lang=any");
 
   }   
     
