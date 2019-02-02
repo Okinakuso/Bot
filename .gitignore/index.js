@@ -50,7 +50,7 @@ bot.on('message', message => {
   }
     
   if (message.content === ".soxis") {
-    message.channel.sendMessage("Un mec qui pense etre le boss mais qui a en faite un complexe de supériorité donc nous le laisson faire.");
+    message.channel.sendMessage("Un mec qui pense etre le boss mais qui a en faite un complexe de supériorité donc nous le laissons faire.");
   }
 
   if (message.content === ".juiverie") {
