@@ -26,7 +26,7 @@ bot.on('message', message => {
 
 
  if (message.content === ".ping") {
-    message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de p**e");
+    message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de pute");
   }
 
 
@@ -44,6 +44,10 @@ bot.on('message', message => {
   if (message.content === ".okina") {
     message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Maire du hameau.");
   }
+    
+  if (message.content === ".soduxy") {
+    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/6/1549115880-plop.png");
+  }
 
 
   if (message.content === ".anime") {
@@ -51,6 +55,20 @@ bot.on('message', message => {
 
   }   
     
+   if (message.content === ".skribbl") {
+    message.channel.sendMessage("https://skribbl.io/");
+
+  }   
+    
+   if (message.content === ".limit") {
+    message.channel.sendMessage("https://limitelimiteenligne.com/#/choose");
+
+  }   
+    
+   if (message.content === ".bac") {
+    message.channel.sendMessage("https://petitbacenligne.net/new-game.xhtml");
+
+  }   
     
   if (message.content === ".dice"){
       random();   
@@ -95,6 +113,7 @@ bot.on('message', message => {
       .addField("Les commandes du bot !" ,  "Voici le menu .help")
       .addField("Pour les commandes inutiles" , ".help1")
       .addField("Pour les commandes fun" , ".help2")
+      .addField("Pour les commandes pour jouer " , ".help3")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
@@ -120,5 +139,13 @@ bot.on('message', message => {
       
   }
 
+  if (message.content === ".help3") {
+    var help_embed = new Discord.RichEmbed()
+      .setColor("#B638FF")
+      .addField("Les commandes pour jouer" , ".skribbl .limite .bac")
+    message.channel.sendEmbed(help_embed);
+    console.log("commande Help3 demandée !");
+      
+  }
 
 });
