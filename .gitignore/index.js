@@ -5,7 +5,7 @@ var randnum = 0
 
 
 bot.on("ready", function() {
-    bot.user.setGame("-help");
+    bot.user.setGame(".help");
     console.log("Le bot est bien connecte")
 });
 
@@ -20,49 +20,39 @@ function random(min, max) {
 
 
 bot.on('message', message => {
-  if (message.content === "-avatar") {
+  if (message.content === ".avatar") {
     message.channel.sendMessage(message.author.avatarURL);
   }
 
 
- if (message.content === "-ping") {
+ if (message.content === ".ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de p**e");
   }
 
 
- if (message.content === "-ching") {
+ if (message.content === ".ching") {
     message.channel.sendMessage("tu es raciste !");
   }
 
 
 
-  if (message.content === "-cora") {
+  if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
   }
 
 
-  if (message.content === "-okina") {
-    message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Fondateur de la guilde");
+  if (message.content === ".okina") {
+    message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Maire du hameau.");
   }
 
 
-  if (message.content === "-anime") {
+  if (message.content === ".anime") {
     message.channel.sendMessage("https://www.randomanime.org/random-anime-game.php");
 
   }   
     
-  if (message.content === "-stuff") {
-    message.channel.sendMessage("http://dofusfashionista.com/");
-
-  }   
     
-  if (message.content === "-kamas") {
-    message.channel.sendMessage("https://www.iflamme.com/index.html");
-
-  }  
-    
-    
-  if (message.content === "-dice"){
+  if (message.content === ".dice"){
       random();   
 
        if (randnum == 0){
@@ -99,31 +89,22 @@ bot.on('message', message => {
   }
     
 
-  if (message.content === "-help") {
+  if (message.content === ".help") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes du bot !" ,  "Voici le menu -help")
-      .addField("Pour les commandes utiles" , "-help1")
-      .addField("Pour les commandes inutiles" , "-help2")
-      .addField("Pour les commandes fun" , "-help3")
+      .addField("Les commandes du bot !" ,  "Voici le menu .help")
+      .addField("Pour les commandes inutiles" , ".help2")
+      .addField("Pour les commandes fun" , ".help3")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
   }
 
-  if (message.content === "-help1") {
-    var help_embed = new Discord.RichEmbed()
-      .setColor("#B638FF")
-      .addField("Les commandes utiles" , "-kamas  -stuff")
-    message.channel.sendEmbed(help_embed);
-    console.log("commande Help1 demandée !");
-      
-  } 
     
-  if (message.content === "-help2") {
+  if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , "-okina -cora")
+      .addField("Les commandes inutiles" , ".okina .cora")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
@@ -133,7 +114,7 @@ bot.on('message', message => {
   if (message.content === "-help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes fun" , "-anime -dice -avatar")
+      .addField("Les commandes fun" , ".anime .dice .avatar")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
