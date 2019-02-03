@@ -92,7 +92,7 @@ bot.on('message', message => {
   if (!message.mentions.users.size) {
   return message.channel.send(`Your avatar: ${message.author.displayAvatarURL}`);
 
-}
+  }
               
     
   if (message.content === ".dice"){
