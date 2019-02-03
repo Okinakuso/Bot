@@ -35,7 +35,7 @@ if (command === '.aavatar') {
 	// send the entire array of strings as a message
 	// by default, discord.js will `.join()` the array with `\n`
 	message.channel.send(avatarList);
-}
+  }
 
 
  if (message.content === ".ping") {
