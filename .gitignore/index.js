@@ -18,7 +18,6 @@ function random(min, max) {
 }
 
 
-
 bot.on('message', message => {
   if (message.content === ".avatar") {
     message.channel.sendMessage(message.author.avatarURL);
@@ -34,12 +33,15 @@ bot.on('message', message => {
     message.channel.sendMessage("tu es raciste !");
   }
 
-
+  if (message.content === ".pute") {
+    message.channel.sendMessage("INVOCATION !");
+    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549220487-dyvp0n-xqaajsne.jpg");
+    message.channel.sendMessage(message.author.avatarURL);
+  }
 
   if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
   }
-
 
   if (message.content === ".okina") {
     message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Maire du hameau.");
@@ -59,22 +61,22 @@ bot.on('message', message => {
 
   if (message.content === ".anime") {
     message.channel.sendMessage("https://www.randomanime.org/list/?l=703869fb&view=single&lang=any");
-
   }   
     
    if (message.content === ".skribbl") {
     message.channel.sendMessage("https://skribbl.io/");
-
   }   
     
    if (message.content === ".limit") {
     message.channel.sendMessage("https://limitelimiteenligne.com/#/choose");
-
   }   
     
    if (message.content === ".bac") {
     message.channel.sendMessage("https://petitbacenligne.net/new-game.xhtml");
-
+  }   
+    
+   if (message.content === ".lgel") {
+    message.channel.sendMessage("https://lgelinfos.fr/joueur");
   }   
     
   if (message.content === ".dice"){
@@ -130,7 +132,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".okina .cora .soxis .soduxy .juiverie")
+      .addField("Les commandes inutiles" , ".okina .cora .soxis .soduxy .juiverie .pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
@@ -149,7 +151,7 @@ bot.on('message', message => {
   if (message.content === ".help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes pour jouer" , ".skribbl .limite .bac")
+      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .lgel")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
