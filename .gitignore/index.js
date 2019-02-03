@@ -23,7 +23,7 @@ bot.on('message', message => {
     message.channel.sendMessage(message.author.avatarURL);
   }
     
-  if (message.content === ".avatar") {
+  if (message.content === ".avatare") {
       if (message.mentions.__len__()>0):
     for user in message.mentions:
         print(user.avatar_url)
