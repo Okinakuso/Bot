@@ -22,7 +22,10 @@ bot.on('message', message => {
   if (message.content === ".avatar") {
     message.channel.sendMessage(message.author.avatarURL);
   }
-
+    
+  if (message.content === ".avatare") {
+    message.channel.sendMessage(message.mention.avatarURL);
+  }
 
  if (message.content === ".ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de pute");
