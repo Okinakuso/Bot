@@ -23,9 +23,13 @@ bot.on('message', message => {
     message.channel.sendMessage(message.author.avatarURL);
   }
     
-  if (message.content === ".avatare") {
-    message.channel.sendMessage(message.mention.avatarURL);
+  if (message.content === ".avatar") {
+      if (message.mentions.__len__()>0):
+    for user in message.mentions:
+        print(user.avatar_url)
+    message.channel.sendMessage(message.author.avatarURL);
   }
+
 
  if (message.content === ".ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de pute");
