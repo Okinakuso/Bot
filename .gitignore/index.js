@@ -43,6 +43,10 @@ bot.on('message', message => {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
   }
     
+  if (message.content === ".karma") {
+    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549224423-dzdzd.png");
+  }
+    
   if (message.content === ".Manon") {
     message.channel.sendMessage("La plus grosse PETASSE du discord");
   }
@@ -136,7 +140,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".okina .cora .soxis .soduxy .juiverie .pute")
+      .addField("Les commandes inutiles" , ".okina .cora .soxis .soduxy .juiverie .pute .karma")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
