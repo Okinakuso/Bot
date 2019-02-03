@@ -87,6 +87,35 @@ bot.on('message', message => {
     message.channel.sendMessage("https://lgelinfos.fr/joueur");
   }   
     
+
+  if (message.content.startsWith('!avatar') {
+  if (!message.mentions.users.size) {
+  return message.channel.send(`Your avatar: ${message.author.displayAvatarURL}`);
+
+}
+
+
+    client.on('message', message => {
+if (message.content.startsWith('!!avatar') {
+if (!message.mentions.users.size) {
+
+return message.channel.send(`Your avatar: ${message.author.displayAvatarURL}`);
+
+}
+
+
+
+const avatarList = message.mentions.users.map(user => {
+
+return `${user.username}\'s avatar: ${user.displayAvatarURL}`;
+
+});
+
+message.channel.send(avatarList);
+}
+}
+              
+    
   if (message.content === ".dice"){
       random();   
 
