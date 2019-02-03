@@ -47,7 +47,7 @@ bot.on('message', message => {
     message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549224423-dzdzd.png");
   }
     
-  if (message.content === ".Manon") {
+  if (message.content === ".manon") {
     message.channel.sendMessage("La plus grosse PETASSE du discord");
   }
 
