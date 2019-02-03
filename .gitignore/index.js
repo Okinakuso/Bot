@@ -48,7 +48,7 @@ bot.on('message', message => {
   }
     
   if (message.content === ".manon") {
-    message.channel.sendMessage("La plus grosse PETASSE du discord");
+    message.channel.sendMessage("La plus grosse Tchoin du discord");
   }
 
   if (message.content === ".okina") {
