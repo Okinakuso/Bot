@@ -42,6 +42,10 @@ bot.on('message', message => {
   if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
   }
+    
+  if (message.content === ".Manon") {
+    message.channel.sendMessage("La plus grosse PETASSE du discord");
+  }
 
   if (message.content === ".okina") {
     message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Maire du hameau.");
@@ -56,7 +60,7 @@ bot.on('message', message => {
   }
 
   if (message.content === ".juiverie") {
-    message.channel.sendMessage("Une juiverie est, au Moyen Âge, un quartier où habitent les Juifs ; il ne s agit pas nécessairement d'un ghetto, ou d un cancel, car ces derniers supposent l obligation de résidence là où la juiverie renvoie simplement à une présence juive, pas nécessairement contrainte");
+    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549224088-tenor.gif");
   }
 
   if (message.content === ".anime") {
