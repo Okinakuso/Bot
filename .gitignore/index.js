@@ -23,12 +23,19 @@ bot.on('message', message => {
     message.channel.sendMessage(message.author.avatarURL);
   }
     
-  if (message.content === ".avatare") {
-      if (message.mentions.__len__()>0):
-    for user in message.mentions:
-        print(user.avatar_url)
-    message.channel.sendMessage(message.author.avatarURL);
-  }
+if (command === '.aavatar') {
+	if (!message.mentions.users.size) {
+		return message.channel.send(`Your avatar: <${message.author.displayAvatarURL}>`);
+	}
+
+	const avatarList = message.mentions.users.map(user => {
+		return `${user.username}'s avatar: <${user.displayAvatarURL}>`;
+	});
+
+	// send the entire array of strings as a message
+	// by default, discord.js will `.join()` the array with `\n`
+	message.channel.send(avatarList);
+}
 
 
  if (message.content === ".ping") {
