@@ -86,13 +86,6 @@ bot.on('message', message => {
    if (message.content === ".lgel") {
     message.channel.sendMessage("https://lgelinfos.fr/joueur");
   }   
-    
-
-  if (message.content.startsWith('!avatar') {
-  if (!message.mentions.users.size) {
-  return message.channel.send(`Your avatar: ${message.author.displayAvatarURL}`);
-
-  }
               
     
   if (message.content === ".dice"){
