@@ -20,14 +20,10 @@ function random(min, max) {
 
 bot.on('message', message => {
   if (message.content === ".avatar") {
+  if (!message.mentions.users.size) {
     message.channel.sendMessage(message.author.avatarURL);
   }
     
-
-  if (message.content === "..avatar") {
-	if (!message.mentions.users.size) {
-		return message.channel.send(`Your avatar: <${message.author.displayAvatarURL}>`);
-	}
 
  if (message.content === ".ping") {
     message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de pute");
