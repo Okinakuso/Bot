@@ -24,7 +24,7 @@ bot.on('message', message => {
   }
     
 
-else if (command === '0avatar') {
+ if (command === '0avatar') {
 	if (!message.mentions.users.size) {
 		return message.channel.send(`Your avatar: <${message.author.displayAvatarURL}>`);
 	}
