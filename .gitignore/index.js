@@ -42,25 +42,9 @@ bot.on('message', message => {
   if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
   }
-    
-  if (message.content === ".karma") {
-    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549224423-dzdzd.png");
-  }
-    
-  if (message.content === ".manon") {
-    message.channel.sendMessage("La plus grosse Tchoin du discord");
-  }
 
   if (message.content === ".okina") {
     message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Maire du hameau.");
-  }
-    
-  if (message.content === ".soduxy") {
-    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/6/1549115880-plop.png");
-  }
-    
-  if (message.content === ".soxis") {
-    message.channel.sendMessage("Un mec qui pense etre le boss mais qui a en faite un complexe de supériorité donc nous le laissons faire.");
   }
 
   if (message.content === ".juiverie") {
@@ -81,10 +65,6 @@ bot.on('message', message => {
     
    if (message.content === ".bac") {
     message.channel.sendMessage("https://petitbacenligne.net/new-game.xhtml");
-  }   
-    
-   if (message.content === ".lgel") {
-    message.channel.sendMessage("https://lgelinfos.fr/joueur");
   }   
               
     
@@ -141,7 +121,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".okina .cora .soxis .soduxy .juiverie .pute .karma")
+      .addField("Les commandes inutiles" , ".okina .cora .pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
@@ -160,7 +140,7 @@ bot.on('message', message => {
   if (message.content === ".help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .lgel")
+      .addField("Les commandes pour jouer" , ".skribbl .limite .bac")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
