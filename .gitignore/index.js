@@ -40,11 +40,11 @@ bot.on('message', message => {
   }
 
   if (message.content === ".cora") {
-    message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de okina");
+    message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de Yami");
   }
 
-  if (message.content === ".okina") {
-    message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres et qui est aussi le Maire du hameau.");
+  if (message.content === ".yami") {
+    message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres .");
   }
 
   if (message.content === ".juiverie") {
