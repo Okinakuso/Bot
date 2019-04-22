@@ -41,18 +41,22 @@ bot.on('message', message => {
 
   if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de Yami");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965228-tumblr-n5rfnvvj7h1t62gxao1-500.gif");
   }
 
   if (message.content === ".illya") {
-    message.channel.sendMessage("˙ʇuǝɯǝsnǝɹnǝɥlɐɯ ɯƃ ǝɹʇou ıssnɐ ʇsǝ ınb éʇıuɐɯnɥ,l ǝp ʇǝɥɔép soɹƃ uoq un");
+    message.channel.sendMessage("Le sac a foutre supreme mais aussi notre GM");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964965-giphy.gif");
   } 
     
   if (message.content === ".xam") {
+    message.channel.sendMessage("Faite attention a vous il est comme ca tout le temps");
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
   } 
     
   if (message.content === ".yami") {
-    message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres .");
+    message.channel.sendMessage("Un homme qui ressent le besoin d etre superieur aux autres.");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965169-tumblr-pew9fkpgof1xqsds7o2-500.gif");
   }
 
   if (message.content === ".loli") {
