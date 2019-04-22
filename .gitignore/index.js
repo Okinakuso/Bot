@@ -54,6 +54,11 @@ bot.on('message', message => {
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
   } 
     
+  if (message.content === ".xam") {
+    message.channel.sendMessage("Wallah c'est une victime");
+    message.channel.sendMessage("https://media.giphy.com/media/pPQyXGxwx272E/giphy.gif");
+  } 
+    
   if (message.content === ".yami") {
     message.channel.sendMessage("Un homme qui ressent le besoin d etre superieur aux autres.");
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965169-tumblr-pew9fkpgof1xqsds7o2-500.gif");
