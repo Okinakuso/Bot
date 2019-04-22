@@ -47,12 +47,16 @@ bot.on('message', message => {
     message.channel.sendMessage("˙ʇuǝɯǝsnǝɹnǝɥlɐɯ ɯƃ ǝɹʇou ıssnɐ ʇsǝ ınb éʇıuɐɯnɥ,l ǝp ʇǝɥɔép soɹƃ uoq un");
   } 
     
+  if (message.content === ".xam") {
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
+  } 
+    
   if (message.content === ".yami") {
     message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres .");
   }
 
   if (message.content === ".loli") {
-    message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549224088-tenor.gif");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964709-tenor.gif");
   }
 
   if (message.content === ".anime") {
@@ -125,7 +129,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".yami .cora .illya .pute")
+      .addField("Les commandes inutiles" , ".yami .cora .illya .xam .pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
