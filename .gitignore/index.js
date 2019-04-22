@@ -54,7 +54,7 @@ bot.on('message', message => {
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
   } 
     
-  if (message.content === ".xam") {
+  if (message.content === ".golden") {
     message.channel.sendMessage("Wallah c'est une victime");
     message.channel.sendMessage("https://media.giphy.com/media/pPQyXGxwx272E/giphy.gif");
   } 
