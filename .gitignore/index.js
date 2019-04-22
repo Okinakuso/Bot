@@ -25,7 +25,7 @@ bot.on('message', message => {
     
 
  if (message.content === ".ping") {
-    message.channel.sendMessage("tu as cru que j allais dire pong ou quoi fils de pute");
+    message.channel.sendMessage("t as cru que j allais dire pong ou quoi fils de pute");
   }
 
 
@@ -41,12 +41,12 @@ bot.on('message', message => {
 
   if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de Yami");
-    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965228-tumblr-n5rfnvvj7h1t62gxao1-500.gif");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965464-giphy.gif");
   }
 
   if (message.content === ".illya") {
     message.channel.sendMessage("Le sac a foutre supreme mais aussi notre GM");
-    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964965-giphy.gif");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965518-tenor.gif");
   } 
     
   if (message.content === ".xam") {
