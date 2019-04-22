@@ -41,7 +41,7 @@ bot.on('message', message => {
 
   if (message.content === ".cora") {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de Yami");
-    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965464-giphy.gif");
+    message.channel.sendMessage("https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif");
   }
 
   if (message.content === ".illya") {
