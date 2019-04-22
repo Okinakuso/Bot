@@ -5,7 +5,7 @@ var randnum = 0
 
 
 bot.on("ready", function() {
-    bot.user.setGame(".help");
+    bot.user.setGame(".try");
     console.log("Le bot est bien connecte")
 });
 
