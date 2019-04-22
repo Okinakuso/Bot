@@ -43,11 +43,15 @@ bot.on('message', message => {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de Yami");
   }
 
+  if (message.content === ".illya") {
+    message.channel.sendMessage("˙ʇuǝɯǝsnǝɹnǝɥlɐɯ ɯƃ ǝɹʇou ıssnɐ ʇsǝ ınb éʇıuɐɯnɥ,l ǝp ʇǝɥɔép soɹƃ uoq un");
+  } 
+    
   if (message.content === ".yami") {
     message.channel.sendMessage("Sombre enculer qui ressent le besoin d etre superieur aux autres .");
   }
 
-  if (message.content === ".juiverie") {
+  if (message.content === ".loli") {
     message.channel.sendMessage("http://image.noelshack.com/fichiers/2019/05/7/1549224088-tenor.gif");
   }
 
@@ -121,7 +125,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".okina .cora .pute")
+      .addField("Les commandes inutiles" , ".yami .cora .illya .pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
@@ -131,7 +135,7 @@ bot.on('message', message => {
   if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes fun" , ".anime .dice .avatar")
+      .addField("Les commandes fun" , ".anime .dice .avatar .loli")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
