@@ -46,7 +46,7 @@ bot.on('message', message => {
 
   if (message.content === ".illya") {
     message.channel.sendMessage("Le sac a foutre supreme mais aussi notre GM");
-    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555965518-tenor.gif");
+    message.channel.sendMessage("https://media1.tenor.com/images/1e0593d9bf7b27cde0be27007d00887e/tenor.gif?itemid=5531465");
   } 
     
   if (message.content === ".xam") {
