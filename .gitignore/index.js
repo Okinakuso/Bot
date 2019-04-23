@@ -59,6 +59,11 @@ bot.on('message', message => {
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
   } 
     
+  if (message.content === ".tezer") {
+    message.channel.sendMessage("Il a le droit a ce gif car il casse les couilles avec ses histoires de recherche");
+    message.channel.sendMessage("https://media.giphy.com/media/7z1xs4Fl9Kb8A/giphy.gif");
+  } 
+    
   if (message.content === ".lucy") {
     message.channel.sendMessage("La meilleure amie de Milord et la future femme de Xamdark");
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif");
@@ -158,7 +163,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".yami.cora .illya .xam .golden .louhan .chou .kaisa.lucy.pute")
+      .addField("Les commandes inutiles" , ".yami.cora .illya .xam .golden .louhan .chou .kaisa.lucy .tezer.pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
