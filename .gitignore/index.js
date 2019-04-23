@@ -60,8 +60,8 @@ bot.on('message', message => {
   } 
     
   if (message.content === ".tezer") {
-    message.channel.sendMessage("Il a le droit a ce gif car il casse les couilles avec ses histoires de recherche");
-    message.channel.sendMessage("https://media.giphy.com/media/7z1xs4Fl9Kb8A/giphy.gif");
+    message.channel.sendMessage("Paix et amour sont les mots qui me définissent!");
+    message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570348806437339144/1.gif");
   } 
     
   if (message.content === ".lucy") {
