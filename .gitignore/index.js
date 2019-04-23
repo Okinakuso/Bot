@@ -55,7 +55,7 @@ bot.on('message', message => {
   } 
     
   if (message.content === ".lucy") {
-    message.channel.sendMessage("Le plus gros dechet de l'humanité");
+    message.channel.sendMessage("La meilleur amie de milord et la futur femme de xamdark");
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif");
   } 
     
