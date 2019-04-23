@@ -54,6 +54,16 @@ bot.on('message', message => {
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
   } 
     
+  if (message.content === ".lucy") {
+    message.channel.sendMessage("Le plus gros dechet de l'humanité");
+    message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/2/1556045778-20190423-205336.gif");
+  } 
+    
+  if (message.content === ".Kaisa") {
+    message.channel.sendMessage("Attaque trempette comme Carapuce :droplet: :whale:");
+    message.channel.sendMessage("https://tenor.com/view/k%c3%a9k%c3%a9crossing-carapuce-nyan-cat-pok%c3%a9mon-gif-13693447");
+  } 
+    
   if (message.content === ".chou") {
     message.channel.sendMessage("Je suis une licooooooorne :heart: * :heart:");
     message.channel.sendMessage("https://tenor.com/view/supernatural-unicorn-rainbow-tail-gif-5754797");
