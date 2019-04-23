@@ -44,7 +44,7 @@ bot.on('message', message => {
     message.channel.sendMessage("https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif");
   }
     
-  if (message.content === ".cora") {
+  if (message.content === ".louhan") {
     message.channel.sendMessage("Prenez garde à son furtur 28M dps!");
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570343991292198932/20190423_222312.gif");
   }
@@ -158,7 +158,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".yami .cora .illya .xam .golden .pute")
+      .addField("Les commandes inutiles" , ".yami.cora .illya .xam .golden .louhan .chou .kaisa.lucy.pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
