@@ -59,7 +59,7 @@ bot.on('message', message => {
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif");
   } 
     
-  if (message.content === ".Kaisa") {
+  if (message.content === ".kaisa") {
     message.channel.sendMessage("Attaque trempette comme Carapuce :droplet: :whale:");
     message.channel.sendMessage("https://tenor.com/view/k%c3%a9k%c3%a9crossing-carapuce-nyan-cat-pok%c3%a9mon-gif-13693447");
   } 
