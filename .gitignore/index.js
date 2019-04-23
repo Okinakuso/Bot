@@ -54,6 +54,11 @@ bot.on('message', message => {
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif");
   } 
     
+  if (message.content === ".chou") {
+    message.channel.sendMessage("Je suis une licooooooorne :heart: * :heart:");
+    message.channel.sendMessage("https://tenor.com/view/supernatural-unicorn-rainbow-tail-gif-5754797");
+  } 
+    
   if (message.content === ".golden") {
     message.channel.sendMessage("Wallah c'est une victime");
     message.channel.sendMessage("https://media.giphy.com/media/pPQyXGxwx272E/giphy.gif");
@@ -138,7 +143,7 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".yami .cora .illya .xam .pute")
+      .addField("Les commandes inutiles" , ".yami .cora .illya .xam .golden .pute")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
