@@ -60,7 +60,7 @@ bot.on('message', message => {
   } 
     
   if (message.content === ".tezer") {
-    message.channel.sendMessage("Paix et amour sont les mots qui me définissent!");
+    message.channel.sendMessage("Paix et amour sont les mots qui le définissent!");
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570348806437339144/1.gif");
   } 
     
