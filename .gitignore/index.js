@@ -43,6 +43,11 @@ bot.on('message', message => {
     message.channel.sendMessage("La plus belle femme du monde et qui est aussi la futur femme de Yami");
     message.channel.sendMessage("https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif");
   }
+    
+  if (message.content === ".cora") {
+    message.channel.sendMessage("Prenez garde à son furtur 28M dps!");
+    message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570343991292198932/20190423_222312.gif");
+  }
 
   if (message.content === ".illya") {
     message.channel.sendMessage("Le sac a foutre supreme mais aussi notre GM");
