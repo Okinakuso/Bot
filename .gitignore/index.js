@@ -17,7 +17,7 @@ function random(min, max) {
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 bot.on('message', message => {
@@ -78,7 +78,6 @@ bot.on('message', message => {
   }
     
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
   if (message.content === ".yami") {
     message.channel.sendMessage("Un homme qui ressent le besoin d etre superieur aux autres.");
@@ -131,7 +130,6 @@ bot.on('message', message => {
   } 
     
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
    if (message.content === ".skribbl") {
     message.channel.sendMessage("https://skribbl.io/");
@@ -182,7 +180,7 @@ bot.on('message', message => {
   }
     
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
   if (message.content === ".help") {
     var help_embed = new Discord.RichEmbed()
