@@ -46,7 +46,10 @@ bot.on('message', message => {
     message.channel.sendMessage("https://image.noelshack.com/fichiers/2019/17/1/1555964709-tenor.gif");
   }
     
-    
+  if (message.content === ".cheh") {
+    message.channel.sendMessage("CHEH !!!!");
+    message.channel.sendMessage("https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif");
+  }
     
     
     
