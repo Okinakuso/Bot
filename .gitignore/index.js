@@ -74,7 +74,7 @@ bot.on('message', message => {
     
    if (message.content === ".tera") {
     message.channel.sendMessage("The definition of Tera");
-    message.channel.sendMessage("https://media3.giphy.com/media/U2M5UZiAKMsI8/giphy.gif");
+    message.channel.sendMessage("https://media.giphy.com/media/Y2mV4BtFdKy2E61CIU/giphy.gif");
   }
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
