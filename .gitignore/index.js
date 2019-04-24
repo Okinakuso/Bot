@@ -17,7 +17,7 @@ function random(min, max) {
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 bot.on('message', message => {
@@ -77,7 +77,8 @@ bot.on('message', message => {
     message.channel.sendMessage("https://media3.giphy.com/media/U2M5UZiAKMsI8/giphy.gif");
   }
     
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
     
   if (message.content === ".yami") {
     message.channel.sendMessage("Un homme qui ressent le besoin d etre superieur aux autres.");
@@ -129,7 +130,7 @@ bot.on('message', message => {
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif");
   } 
     
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
    if (message.content === ".skribbl") {
     message.channel.sendMessage("https://skribbl.io/");
@@ -179,7 +180,7 @@ bot.on('message', message => {
 
   }
     
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
   if (message.content === ".help") {
