@@ -115,7 +115,7 @@ bot.on('message', message => {
     
   if (message.content === ".kaisa") {
     message.channel.sendMessage("Je t'aime, tu es parfait comme tu es. Ne change jamais c: :heart: * :heart: ");
-    message.channel.sendMessage("https://tenor.com/view/beer-unicorn-lets-get-drunk-gif-13996107);
+    message.channel.sendMessage("https://tenor.com/view/beer-unicorn-lets-get-drunk-gif-13996107");
   } 
     
   if (message.content === ".lucy") {
