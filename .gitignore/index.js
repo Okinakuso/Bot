@@ -66,6 +66,11 @@ bot.on('message', message => {
     message.channel.sendMessage("https://66.media.tumblr.com/00adce6cac552d1126167f58628261bf/tumblr_pcrejxWhIh1usyygio2_400.gif");
   }
     
+   if (message.content === ".fuck") {
+    message.channel.sendMessage("Just fuck off");
+    message.channel.sendMessage("https://media1.tenor.com/images/56ad2a999554be01ad74497c0d1325b7/tenor.gif?itemid=10678828");
+  }
+    
     
     
   if (message.content === ".yami") {
@@ -198,7 +203,7 @@ bot.on('message', message => {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .dice .avatar .pute")
-      .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again")
+      .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
