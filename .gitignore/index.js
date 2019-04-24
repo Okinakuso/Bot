@@ -17,13 +17,14 @@ function random(min, max) {
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 bot.on('message', message => {
   if (message.content === ".avatar") {
     message.channel.sendMessage(message.author.avatarURL);
   }
     
-
  if (message.content === ".ping") {
     message.channel.sendMessage("t as cru que j allais dire pong ou quoi fils de pute");
   }
@@ -71,7 +72,7 @@ bot.on('message', message => {
     message.channel.sendMessage("https://media1.tenor.com/images/56ad2a999554be01ad74497c0d1325b7/tenor.gif?itemid=10678828");
   }
     
-    
+-----------------------------------------------------------------------------------------------------------------------------------------
     
   if (message.content === ".yami") {
     message.channel.sendMessage("Un homme qui ressent le besoin d etre superieur aux autres.");
@@ -122,8 +123,8 @@ bot.on('message', message => {
     message.channel.sendMessage("La meilleure amie de Milord et la future femme de Mme Su");
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif");
   } 
-
-
+    
+-----------------------------------------------------------------------------------------------------------------------------------------
     
    if (message.content === ".skribbl") {
     message.channel.sendMessage("https://skribbl.io/");
@@ -135,8 +136,7 @@ bot.on('message', message => {
     
    if (message.content === ".bac") {
     message.channel.sendMessage("https://petitbacenligne.net/new-game.xhtml");
-  }   
-              
+  }               
     
   if (message.content === ".dice"){
       random();   
@@ -174,6 +174,7 @@ bot.on('message', message => {
 
   }
     
+-----------------------------------------------------------------------------------------------------------------------------------------
 
   if (message.content === ".help") {
     var help_embed = new Discord.RichEmbed()
@@ -202,7 +203,7 @@ bot.on('message', message => {
   if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".ping .ching .anime .dice .avatar .pute")
+      .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute")
       .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
@@ -212,7 +213,7 @@ bot.on('message', message => {
   if (message.content === ".help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes pour jouer" , ".skribbl .limite .bac")
+      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .dice")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
