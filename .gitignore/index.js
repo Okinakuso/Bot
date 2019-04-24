@@ -50,6 +50,11 @@ bot.on('message', message => {
     message.channel.sendMessage("CHEH !!!!");
     message.channel.sendMessage("https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif");
   }
+    
+  if (message.content === ".again") {
+    message.channel.sendMessage("come on");
+    message.channel.sendMessage("https://images-ext-2.discordapp.net/external/P2Ism1PGSkXCd7W_mEAzBoYvyBQIswXChL1RHmricow/%3Fitemid%3D13933485/https/media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif");
+  }
  
   if (message.content === ".shit") {
     message.channel.sendMessage("Tsukimasu kusotare");
@@ -181,7 +186,8 @@ bot.on('message', message => {
   if (message.content === ".help1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".yami.cora .illya .xam .golden .louhan .chou .kaisa .lucy .tezer")
+      .addField("Les commandes ciblées " , ".yami.cora .illya .xam .golden ")
+      .addField("Les commandes ciblées 2" , ".louhan .chou .kaisa .lucy .tezer .milord")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
@@ -191,7 +197,8 @@ bot.on('message', message => {
   if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , ".ping .ching .anime .dice .avatar .pute .loli .cheh .shit .octogone")
+      .addField("Les commandes inutiles" , ".ping .ching .anime .dice .avatar .pute")
+      .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
