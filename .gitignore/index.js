@@ -52,7 +52,7 @@ bot.on('message', message => {
   }
  
   if (message.content === ".shit") {
-    message.channel.sendMessage("着きます 糞たれ");
+    message.channel.sendMessage("Tsukimasu kusotare");
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif");
   }
     
