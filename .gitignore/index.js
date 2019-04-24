@@ -72,6 +72,11 @@ bot.on('message', message => {
     message.channel.sendMessage("https://media1.tenor.com/images/56ad2a999554be01ad74497c0d1325b7/tenor.gif?itemid=10678828");
   }
     
+   if (message.content === ".tera") {
+    message.channel.sendMessage("The definition of Tera");
+    message.channel.sendMessage("https://media3.giphy.com/media/U2M5UZiAKMsI8/giphy.gif");
+  }
+    
 -----------------------------------------------------------------------------------------------------------------------------------------
     
   if (message.content === ".yami") {
@@ -203,7 +208,7 @@ bot.on('message', message => {
   if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute")
+      .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
       .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
