@@ -50,6 +50,16 @@ bot.on('message', message => {
     message.channel.sendMessage("CHEH !!!!");
     message.channel.sendMessage("https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif");
   }
+ 
+  if (message.content === ".shit") {
+    message.channel.sendMessage("着きます 糞たれ");
+    message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif");
+  }
+    
+  if (message.content === ".octogone") {
+    message.channel.sendMessage("Go octogone sans règles sous race !");
+    message.channel.sendMessage("https://66.media.tumblr.com/00adce6cac552d1126167f58628261bf/tumblr_pcrejxWhIh1usyygio2_400.gif");
+  }
     
     
     
@@ -99,7 +109,7 @@ bot.on('message', message => {
   } 
     
   if (message.content === ".lucy") {
-    message.channel.sendMessage("La meilleure amie de Milord et la future femme de Xamdark");
+    message.channel.sendMessage("La meilleure amie de Milord et la future femme de Mme Su);
     message.channel.sendMessage("https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif");
   } 
 
@@ -181,7 +191,7 @@ bot.on('message', message => {
   if (message.content === ".help2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes utiles" , ".ping .ching .anime .dice .avatar .pute .loli .cheh")
+      .addField("Les commandes utiles" , ".ping .ching .anime .dice .avatar .pute .loli .cheh .shit .octogone")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
