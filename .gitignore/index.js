@@ -109,8 +109,8 @@ bot.on('message', message => {
   } 
     
   if (message.content === ".kaisa") {
-    message.channel.sendMessage("Attaque trempette comme Carapuce :droplet: :whale:");
-    message.channel.sendMessage("https://tenor.com/view/k%c3%a9k%c3%a9crossing-carapuce-nyan-cat-pok%c3%a9mon-gif-13693447");
+    message.channel.sendMessage("Je t'aime, tu es parfait comme tu es. Ne change jamais c: :heart: * :heart: ");
+    message.channel.sendMessage("https://tenor.com/view/beer-unicorn-lets-get-drunk-gif-13996107);
   } 
     
   if (message.content === ".lucy") {
