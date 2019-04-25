@@ -180,6 +180,39 @@ bot.on('message', message => {
 
   }
     
+    
+    
+bot.on('message', message => {
+
+    if (message.content.startsWith('.play')) {
+
+      let voiceChannel = message.guild.channels
+        .filter(function (channel) { return channel.type === 'voice' })
+        .first()
+      // On récupère les arguments de la commande 
+      // il faudrait utiliser une expression régulière pour valider le lien youtube
+      let args = message.content.split('youtube')
+      // On rejoint le channel audio
+      voiceChannel
+        .join()
+        .then(function (connection) {
+          // On démarre un stream à partir de la vidéo youtube
+          let stream = YoutubeStream(args[1])
+          stream.on('error', function () {
+            message.reply("Je n'ai pas réussi à lire cette vidéo :(")
+            connection.disconnect()
+          })
+          // On envoie le stream au channel audio
+          // Il faudrait ici éviter les superpositions (envoie de plusieurs vidéo en même temps)
+          connection
+            .playStream(stream)
+            .on('end', function () {
+              connection.disconnect()
+            })
+        })
+    }
+  
+  })
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
