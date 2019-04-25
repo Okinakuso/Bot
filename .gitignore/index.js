@@ -179,14 +179,11 @@ bot.on('message', message => {
         }   
 
   }
+        
     
-    
-    
-bot.on('message', message => {
-
     if (message.content.startsWith('.play')) {
 
-      let voiceChannels = message.guild.channels
+      let voiceChannel = message.guild.channels
         .filter(function (channel) { return channel.type === 'voice' })
         .first()
       // On récupère les arguments de la commande 
@@ -211,8 +208,7 @@ bot.on('message', message => {
             })
         })
     }
-  
-  })
+    
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
