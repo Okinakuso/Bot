@@ -76,7 +76,37 @@ bot.on('message', message => {
     message.channel.sendMessage("The definition of Tera");
     message.channel.sendMessage("https://media.giphy.com/media/Y2mV4BtFdKy2E61CIU/giphy.gif");
   }
+
+  if (message.content === ".slap") {
+    message.channel.sendMessage("Kuso !");
+    message.channel.sendMessage("https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif");
+  }
+
+  if (message.content === ".cry") {
+    message.channel.sendMessage("no , i don't");
+    message.channel.sendMessage("http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif");
+  }
+
+  if (message.content === ".huge") {
+    message.channel.sendMessage(":heart: :heart: :heart: :heart: :heart:");
+    message.channel.sendMessage("https://media1.tenor.com/images/efdd8f53689b1bb3437054d608156e95/tenor.gif?itemid=5101517");
+  }
+
+  if (message.content === ".yaoi") {
+    message.channel.sendMessage(":gay_pride_flag: :gay_pride_flag: ♂️♂️ :gay_pride_flag: :gay_pride_flag: ");
+    message.channel.sendMessage("https://media.giphy.com/media/7z1xs4Fl9Kb8A/giphy.gif");
+  }
     
+  if (message.content === ".yuri") {
+    message.channel.sendMessage(":gay_pride_flag: :gay_pride_flag: ♀️♀️ :gay_pride_flag: :gay_pride_flag: ");
+    message.channel.sendMessage("https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif");
+  }
+
+  if (message.content === ".rly") {
+    message.channel.sendMessage("Ur in the shit ni****");
+    message.channel.sendMessage("https://i.kym-cdn.com/photos/images/original/000/420/723/b6b.gif");
+  }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
@@ -214,6 +244,7 @@ bot.on('message', message => {
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
       .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
+      .addField("Les commandes inutiles 2" , ".yuri .yaoi .huge .slap .cry .rly")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
