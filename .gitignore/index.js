@@ -87,7 +87,7 @@ bot.on('message', message => {
     message.channel.sendMessage("http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif");
   }
 
-  if (message.content === ".huge") {
+  if (message.content === ".hug") {
     message.channel.sendMessage(":heart: :heart: :heart: :heart: :heart:");
     message.channel.sendMessage("https://media1.tenor.com/images/efdd8f53689b1bb3437054d608156e95/tenor.gif?itemid=5101517");
   }
@@ -219,8 +219,8 @@ bot.on('message', message => {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes du bot !" ,  "Voici le menu .help")
-      .addField("Pour les commandes inutiles" , ".help1")
-      .addField("Pour les commandes fun" , ".help2")
+      .addField("Pour les commandes ciblées" , ".help1")
+      .addField("Pour les commandes inutiles" , ".help2")
       .addField("Pour les commandes pour jouer " , ".help3")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
@@ -244,7 +244,7 @@ bot.on('message', message => {
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
       .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
-      .addField("Les commandes inutiles 2" , ".yuri .yaoi .huge .slap .cry .rly")
+      .addField("Les commandes inutiles 2" , ".yuri .yaoi .hug .slap .cry .rly")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
