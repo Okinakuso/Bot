@@ -117,70 +117,29 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
     message.channel.send(`https://petitbacenligne.net/new-game.xhtml`);
   }               
     
-  if (message.content === ".dice"){
+    if (message.content === ".dice"){
       random();   
 
        if (randnum == 0){
            message.reply("1");
           console.log(randnum);
-       }
-
-       if (randnum == 1){
+        }  else if (randnum == 1){
            message.reply("2");
            console.log(randnum);
-       }
-
-
-       if (randnum == 2){
+          }  else if (randnum == 2){
            message.reply("3");
            console.log(randnum);
-        }
-
-        if (randnum == 3){
+          }  else if (randnum == 3){
             message.reply("4");
             console.log(randnum);
-        }
-        
-        if (randnum == 4){
+          }  else if (randnum == 4){
             message.reply("5");
             console.log(randnum);
-        }
-      
-        if (randnum == 5){
+          }  else if(randnum == 5){
             message.reply("6");
             console.log(randnum);
         }   
 
-        if (randnum == 6){
-          message.reply("1");
-         console.log(randnum);
-        }
-
-        if (randnum == 7){
-          message.reply("2");
-          console.log(randnum);
-        }
-
-        if (randnum == 8){
-          message.reply("3");
-          console.log(randnum);
-         }
-
-         if (randnum == 9){
-           message.reply("4");
-           console.log(randnum);
-         }
-       
-         if (randnum == 10){
-           message.reply("5");
-           console.log(randnum);
-         }
-     
-         if (randnum == 11){
-           message.reply("6");
-           console.log(randnum);
-         }   
- 
   }
        
     
