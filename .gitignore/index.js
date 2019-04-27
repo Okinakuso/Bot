@@ -48,8 +48,8 @@ bot.on('message', message => {
   }
     
   if (message.content === ".cheh") {
-    msg.reply('CHEH !!!!');
-    msg.reply('https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif');
+    message.channel.send("CHEH !!!!");
+    message.channel.send("https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif");
   }
     
   if (message.content === ".again") {
