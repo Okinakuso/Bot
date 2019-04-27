@@ -110,6 +110,37 @@ if (message.content.startsWith(`${prefix}yami`)) {
   } 
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+   if (message.content.startsWith(`${prefix}rage `)) {
+      random();   
+
+       if (randnum == 0){
+           message.reply(`https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif`);
+          console.log(randnum);
+        }  else if (randnum == 1){
+           message.reply(`https://thumbs.gfycat.com/AcrobaticVillainousGossamerwingedbutterfly-max-1mb.gif`);
+           console.log(randnum);
+         }  else if (randnum == 2){
+           message.reply(`https://i.pinimg.com/originals/71/17/9b/71179bbe1f5213a169170b1b31da6a84.gif`);
+           console.log(randnum);
+         }  else if (randnum == 3){
+            message.reply(`https://data.whicdn.com/images/245572887/original.gif`);
+            console.log(randnum);
+         }  else if (randnum == 4){
+            message.reply(`https://media1.tenor.com/images/b9c63bf5ff8a5b6e6b7de64cc017fe41/tenor.gif?itemid=5798043`);
+            console.log(randnum);
+          }  else if (randnum == 5){
+            message.reply(`https://media.discordapp.net/attachments/568118396676341800/571810403231858688/1.gif`);
+            console.log(randnum);
+          }  else if (randnum == 6){
+            message.reply(`https://pa1.narvii.com/7071/f74d3f00ecda88f9c04304c4a1706d9090c8f827r1-500-281_hq.gif`);
+            console.log(randnum);
+     }   
+
+  } 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
     
 if (message.content.startsWith(`${prefix}skribbl`)) {
     message.channel.send(`https://skribbl.io/`);
@@ -118,6 +149,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   }  else if (message.content.startsWith(`${prefix}bac`)) {
     message.channel.send(`https://petitbacenligne.net/new-game.xhtml`);
   }               
+    
     
     if (message.content === ".dice"){
       random();   
