@@ -162,7 +162,7 @@ bot.on('message', message => {
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-   if (message.content === ".skribbl") {
+if (args[0].toLocaleLowerCase() === prefix + 'skribble'){
     message.channel.send("https://skribbl.io/");
   }   
     
@@ -300,7 +300,7 @@ bot.on('message', message => {
   if (message.content === ".help3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .dice")
+      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .dice .8ball")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
