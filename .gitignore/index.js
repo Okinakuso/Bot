@@ -38,27 +38,20 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(message.author.avatarURL);
   }  else if (message.content.startsWith(`${prefix}loli`)) {
     message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555964709-tenor.gif`);
-  }  else if (message.content.startsWith(`${prefix}shit`)) {
-   message.channel.send(`Tsukimasu kusotare`);
-   message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif`);  
   }  else if (message.content.startsWith(`${prefix}cheh`)) {
     message.channel.send(`https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif`);
   }  else if (message.content.startsWith(`${prefix}octogone`)) {
     message.channel.send(`Go octogone sans règles sous race !`);
     message.channel.send(`https://66.media.tumblr.com/00adce6cac552d1126167f58628261bf/tumblr_pcrejxWhIh1usyygio2_400.gif`);
   }  else if (message.content.startsWith(`${prefix}fuck`)) {
-    message.channel.send(`Just fuck off`);
     message.channel.send(`https://media1.tenor.com/images/56ad2a999554be01ad74497c0d1325b7/tenor.gif?itemid=10678828`);
   }  else if (message.content.startsWith(`${prefix}tera`)) {
-    message.channel.send(`The definition of Tera`);
     message.channel.send(`https://media.giphy.com/media/Y2mV4BtFdKy2E61CIU/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}slap`)) {
-    message.channel.send(`Kuso !`);
     message.channel.send(`https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}again`)) {
     message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
   }  else if (message.content.startsWith(`${prefix}cry`)) {
-    message.channel.send(`no , i don't`);
     message.channel.send(`http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif`);
   }  else if (message.content.startsWith(`${prefix}hug`)) {
     message.channel.send(`:heart: :heart: :heart: :heart: :heart:`);
@@ -69,8 +62,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
   }  else if (message.content.startsWith(`${prefix}yuri`)) {
     message.channel.send(`:gay_pride_flag: :gay_pride_flag: ♀️♀️ :gay_pride_flag: :gay_pride_flag: `);
     message.channel.send(`https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}rly`)) {
-    message.channel.send(`Ur in the shit ni****`);
+  }  else if (message.content.startsWith(`${prefix}realy`)) {
     message.channel.send(`https://i.kym-cdn.com/photos/images/original/000/420/723/b6b.gif`);
   }
 
