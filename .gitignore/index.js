@@ -22,7 +22,7 @@ function random(min, max) {
 
 bot.on('message', message => {
 
-if (command === 'avatar') {
+if (command === '.avatar') {
 	if (!message.mentions.users.size) {
 		return message.channel.send(`Your avatar: <${message.author.displayAvatarURL}>`);
 	}
