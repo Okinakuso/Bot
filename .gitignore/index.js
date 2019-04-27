@@ -21,7 +21,7 @@ function random(min, max) {
 
 
 bot.on('message', message => {
-  if (message.content === ".avatar") {
+  if (message.content.startsWith('.avatar ') && message.mentions.users.size) {
     message.channel.sendMessage(message.author.avatarURL);
   }
     
