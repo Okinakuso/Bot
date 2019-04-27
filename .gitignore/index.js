@@ -13,7 +13,7 @@ bot.login(process.env.TOKEN);
 
 function random(min, max) {
   min = Math.ceil(0);
-  max = Math.floor(5);
+  max = Math.floor(12);
   randnum = Math.floor(Math.random() * (max -min +1) + min);
 }
 
@@ -208,9 +208,103 @@ bot.on('message', message => {
             console.log(randnum);
         }   
 
+        if (randnum == 6){
+          message.reply("1");
+         console.log(randnum);
+        }
+
+        if (randnum == 7){
+          message.reply("2");
+          console.log(randnum);
+        }
+
+        if (randnum == 8){
+          message.reply("3");
+          console.log(randnum);
+         }
+
+         if (randnum == 9){
+           message.reply("4");
+           console.log(randnum);
+         }
+       
+         if (randnum == 10){
+           message.reply("5");
+           console.log(randnum);
+         }
+     
+         if (randnum == 11){
+           message.reply("6");
+           console.log(randnum);
+         }   
+ 
   }
         
+  if (message.content === ".8ball"){
+    random();   
+
+     if (randnum == 0){
+         message.reply("Oui");
+        console.log(randnum);
+     }
+
+     if (randnum == 1){
+         message.reply("Gros j'ai pas ton temps , j'ai un taff moi!");
+         console.log(randnum);
+     }
+
+     if (randnum == 2){
+         message.reply("Une chance sur deux ");
+         console.log(randnum);
+      }
+
+      if (randnum == 3){
+          message.reply("D'après moi oui");
+          console.log(randnum);
+      }
+      
+      if (randnum == 4){
+          message.reply("Sans aucun doute");
+          console.log(randnum);
+      }
     
+      if (randnum == 5){
+          message.reply("Tu peux compter dessus");
+          console.log(randnum);
+      }   
+
+     if (randnum == 6){
+         message.reply("N'y compte pas");
+        console.log(randnum);
+     }
+
+     if (randnum == 7){
+         message.reply("Impossible ");
+         console.log(randnum);
+     }
+
+     if (randnum == 8){
+         message.reply("C'est non");
+         console.log(randnum);
+      }
+
+      if (randnum == 9){
+          message.reply("Faut pas rêver");
+          console.log(randnum);
+      }
+      
+      if (randnum == 10){
+          message.reply("Pas d'avis");
+          console.log(randnum);
+      }
+    
+      if (randnum == 11){
+          message.reply("Gros retourne sur Tera et me fait pas chier");
+          console.log(randnum);
+      }  
+    
+    
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
