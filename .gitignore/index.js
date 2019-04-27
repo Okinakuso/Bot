@@ -162,8 +162,8 @@ bot.on('message', message => {
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-   if (message.content === ".limit") {
-    message.channel.send("https://skribbl.io/");
+  if (args[0].toLocaleLowerCase() === prefix + '8ball'){
+    let rep = ["https://skribbl.io/"];
   }   
     
    if (message.content === ".limit") {
