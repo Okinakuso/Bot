@@ -240,7 +240,7 @@ bot.on('message', message => {
  
   }
         
-  if (message.content === ".8ball"){
+  if (message.content === ".8bal"){
     random();   
 
      if (randnum == 0){
