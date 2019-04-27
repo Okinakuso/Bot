@@ -56,7 +56,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`Kuso !`);
     message.channel.send(`https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}again`)) {
-    message.channel.send(`https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif`);
+    message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
   }  else if (message.content.startsWith(`${prefix}cry`)) {
     message.channel.send(`no , i don't`);
     message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
