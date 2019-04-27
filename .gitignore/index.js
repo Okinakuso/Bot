@@ -22,10 +22,18 @@ function random(min, max) {
 
 bot.on('message', message => {
 
-  if (message.content.startsWith(`${prefix}avatar`)) {
-    var member = message.mentions.first()
-    .setImage(message.member.avatarURL)
-   }
+if (command === 'avatar') {
+	if (!message.mentions.users.size) {
+		return message.channel.send(`Your avatar: <${message.author.displayAvatarURL}>`);
+	}
+
+	const avatarList = message.mentions.users.map(user => {
+		return `${user.username}'s avatar: <${user.displayAvatarURL}>`;
+	});
+
+
+	message.channel.send(avatarList);
+}
     
 if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`t as cru que j allais dire pong ou quoi ? Dechet !`);
