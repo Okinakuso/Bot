@@ -243,16 +243,6 @@ bot.on('message', message => {
     
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
- 
-    
-    if (args[0].toLocaleLowerCase() === prefix + 'jails'){
-        if (!args[0]) return message.channel.send("Veuillez **poser une question** :x:")
-        let rep = ["https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif", "https://media.giphy.com/media/pPQyXGxwx272E/giphy.gif"];
-        let reptaille = Math.floor((Math.random() * rep.length));
-        let question = args.slice(0).join(" ");
-        message.channel.send(embed)
-        
-    }
    
     if (args[0].toLocaleLowerCase() === prefix + '8ball'){
         if (!args[0]) return message.channel.send("Veuillez **poser une question** :x:")
