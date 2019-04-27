@@ -162,7 +162,7 @@ bot.on('message', message => {
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-  if (args[0].toLocaleLowerCase() === prefix + '8ball'){
+  if (args[0].toLocaleLowerCase() === prefix + 'skribbl'){
     let rep = ["https://skribbl.io/"];
   }   
     
