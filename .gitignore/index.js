@@ -59,7 +59,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
   }  else if (message.content.startsWith(`${prefix}cry`)) {
     message.channel.send(`no , i don't`);
-    message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
+    message.channel.send(`http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif`);
   }  else if (message.content.startsWith(`${prefix}hug`)) {
     message.channel.send(`:heart: :heart: :heart: :heart: :heart:`);
     message.channel.send(`https://media1.tenor.com/images/efdd8f53689b1bb3437054d608156e95/tenor.gif?itemid=5101517`);
