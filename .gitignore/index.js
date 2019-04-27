@@ -251,7 +251,7 @@ bot.on('message', message => {
         let reptaille = Math.floor((Math.random() * rep.length));
         let question = args.slice(0).join(" ");
     
-    
+    }
    
     if (args[0].toLocaleLowerCase() === prefix + '8ball'){
         if (!args[0]) return message.channel.send("Veuillez **poser une question** :x:")
