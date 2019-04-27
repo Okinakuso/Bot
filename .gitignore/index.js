@@ -239,39 +239,7 @@ bot.on('message', message => {
          }   
  
   }
-        
-  if (message.content === ".8bal"){
-    random();   
-
-     if (randnum == 0){
-         message.reply("Oui");
-        console.log(randnum);
-     }
-
-     if (randnum == 1){
-         message.reply("Gros j'ai pas ton temps , j'ai un taff moi!");
-         console.log(randnum);
-     }
-
-     if (randnum == 2){
-         message.reply("Une chance sur deux ");
-         console.log(randnum);
-      }
-
-      if (randnum == 3){
-          message.reply("D'après moi oui");
-          console.log(randnum);
-      }
-      
-      if (randnum == 4){
-          message.reply("Sans aucun doute");
-          console.log(randnum);
-      }
-    
-
-      
-    
-}
+       
     
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
