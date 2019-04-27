@@ -162,7 +162,7 @@ bot.on('message', message => {
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-if (args[0].toLocaleLowerCase() === prefix + 'skribble'){
+   if (message.content === ".limit") {
     message.channel.send("https://skribbl.io/");
   }   
     
