@@ -48,7 +48,6 @@ bot.on('message', message => {
   }
     
   if (message.content === ".cheh") {
-        if (message.content.startsWith('.cheh') && message.mentions.users.size) {
     message.channel.sendMessage("CHEH !!!!");
     message.channel.sendMessage("https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif");
   }
