@@ -5,7 +5,7 @@ var randnum = 0;
 var prefix = ".";
 
 bot.on("ready", function() {
-    bot.user.setGame(".try");
+    bot.user.setGame(".help");
     console.log("Le bot est bien connecte");
 });
 
