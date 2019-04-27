@@ -115,22 +115,22 @@ if (message.content.startsWith(`${prefix}yami`)) {
       random();   
 
        if (randnum == 0){
-           message.reply(`https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif`);
+           message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif`);
           console.log(randnum);
         }  else if (randnum == 1){
-           message.reply(`https://pa1.narvii.com/7071/f74d3f00ecda88f9c04304c4a1706d9090c8f827r1-500-281_hq.gif`);
+           message.channel.send(`https://pa1.narvii.com/7071/f74d3f00ecda88f9c04304c4a1706d9090c8f827r1-500-281_hq.gif`);
            console.log(randnum);
          }  else if (randnum == 2){
-           message.reply(`https://cdn.discordapp.com/attachments/568118396676341800/571810403231858688/1.gif`);
+           message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/571810403231858688/1.gif`);
            console.log(randnum);
          }  else if (randnum == 3){
-            message.reply(`https://data.whicdn.com/images/245572887/original.gif`);
+            message.channel.send(`https://data.whicdn.com/images/245572887/original.gif`);
             console.log(randnum);
          }  else if (randnum == 4){
-            message.reply(`https://i.pinimg.com/originals/71/17/9b/71179bbe1f5213a169170b1b31da6a84.gif`);
+            message.channel.send(`https://i.pinimg.com/originals/71/17/9b/71179bbe1f5213a169170b1b31da6a84.gif`);
             console.log(randnum);
           }  else if (randnum == 5){
-            message.reply(`https://thumbs.gfycat.com/AcrobaticVillainousGossamerwingedbutterfly-max-1mb.gif`);
+            message.channel.send(`https://thumbs.gfycat.com/AcrobaticVillainousGossamerwingedbutterfly-max-1mb.gif`);
             console.log(randnum);
      }   
 
