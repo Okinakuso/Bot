@@ -268,41 +268,8 @@ bot.on('message', message => {
           console.log(randnum);
       }
     
-      if (randnum == 5){
-          message.reply("Tu peux compter dessus");
-          console.log(randnum);
-      }   
 
-     if (randnum == 6){
-         message.reply("N'y compte pas");
-        console.log(randnum);
-     }
-
-     if (randnum == 7){
-         message.reply("Impossible ");
-         console.log(randnum);
-     }
-
-     if (randnum == 8){
-         message.reply("C'est non");
-         console.log(randnum);
-      }
-
-      if (randnum == 9){
-          message.reply("Faut pas rêver");
-          console.log(randnum);
-      }
       
-      if (randnum == 10){
-          message.reply("Pas d'avis");
-          console.log(randnum);
-      }
-    
-      if (randnum == 11){
-          message.reply("Gros retourne sur Tera et me fait pas chier");
-          console.log(randnum);
-      }  
-    
     
 }
     
@@ -312,13 +279,13 @@ bot.on('message', message => {
    
     if (args[0].toLocaleLowerCase() === prefix + '8ball'){
         if (!args[0]) return message.channel.send("Veuillez **poser une question** :x:")
-        let rep = ["Non :x:", "J'ai envie de dormir :zzz:", "Balec :face_palm:", "Peut être... :thinking:", "Absolument :interrobang:"];
+        let rep = ["Gros retourne sur Tera et me fait pas chier :middle_finger: ", "Pas d'avis :shrug: ", "Balec :face_palm:", "Faut pas rêver", "C'est non :frowning: ", "Impossible :no_good:", "N'y compte pas dechet :recycle: ", "Tu peux compter dessus :upside_down: ", "Sans aucun doute :no_mouth: ", "D'après moi oui gros", "Une chance sur deux", "Gros j'ai pas ton temps ,j'ai un taff moi!", "Ouais gros"];
         let reptaille = Math.floor((Math.random() * rep.length));
         let question = args.slice(0).join(" ");
  
         let embed = new Discord.RichEmbed()
             .setAuthor(message.author.tag)
-            .setColor("ORANGE")
+            .setColor("PURPLE")
             .addField("Question:", question)
             .addField("Réponse:", rep[reptaille]);
         message.channel.send(embed)
