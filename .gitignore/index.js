@@ -21,22 +21,8 @@ function random(min, max) {
 
 
 bot.on('message', message => {
-  if (m.content.startsWith(".avatar")) {
-    if (m.content.indexOf(' ') !== -1) {
-      if (m.mentions) {
-        for (var user of m.mentions) {
-          message += user.avatarURL + '\n';
-        }
-        message.slice(0, -2);
-        bot.sendMessage(m.channel, message);
-      } else {
-        message = m.author.avatarURL;
-        bot.sendMessage(m.channel, message);
-      }
-    } else {
-      message = m.author.avatarURL;
-      bot.sendMessage(m.channel, message);
-    }
+   if (message.content === ".avatar") {
+    message.channel.sendMessage(message.author.avatarURL);
   }
     
  if (message.content === ".ping") {
@@ -62,6 +48,7 @@ bot.on('message', message => {
   }
     
   if (message.content === ".cheh") {
+        if (message.content.startsWith('.cheh') && message.mentions.users.size) {
     message.channel.sendMessage("CHEH !!!!");
     message.channel.sendMessage("https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif");
   }
