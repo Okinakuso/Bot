@@ -111,7 +111,7 @@ if (message.content.startsWith(`${prefix}yami`)) {
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
-   if (message.content.startsWith(`${prefix}rage `)) {
+   if (message.content.startsWith(`.rage`)) {
       random();   
 
        if (randnum == 0){
