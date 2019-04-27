@@ -29,7 +29,7 @@ if (command === 'avatar') {
 
 	const avatarList = message.mentions.users.map(user => {
 		return `${user.username}'s avatar: <${user.displayAvatarURL}>`;
-	});
+	})
 
 
 	message.channel.send(avatarList);
