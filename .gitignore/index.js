@@ -250,7 +250,8 @@ bot.on('message', message => {
         let rep = ["https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif", "https://media.giphy.com/media/pPQyXGxwx272E/giphy.gif"];
         let reptaille = Math.floor((Math.random() * rep.length));
         let question = args.slice(0).join(" ");
-    
+        message.channel.send(embed)
+        
     }
    
     if (args[0].toLocaleLowerCase() === prefix + '8ball'){
