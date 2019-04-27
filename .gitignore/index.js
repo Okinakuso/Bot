@@ -22,12 +22,9 @@ function random(min, max) {
 
 bot.on('message', message => {
 
-if (message.content.startsWith(`${prefix}avatar`)) {
+  if (message.content.startsWith(`${prefix}avatar`)) {
     var member = message.mentions.first()
-      let embed = new Discord.RichEmbed()
     .setImage(message.member.avatarURL)
-    .setColor('#275BF0')
-      message.channel.send(embed)
    }
     
 if (message.content.startsWith(`${prefix}ping`)) {
