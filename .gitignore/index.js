@@ -306,7 +306,6 @@ bot.on('message', message => {
     
 }
     
-    client.on('message',message => {
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
  
