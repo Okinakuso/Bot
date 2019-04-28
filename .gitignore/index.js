@@ -374,7 +374,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
       .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
-      .addField("Les commandes inutiles 2" , ".yuri .yaoi .hug .slap .cry .rly")
+      .addField("Les commandes inutiles 2" , ".yuri .yaoi .hug .slap .cry .realy")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
