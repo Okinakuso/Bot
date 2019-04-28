@@ -36,32 +36,14 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`INVOCATION !`);
     message.channel.send(`http://image.noelshack.com/fichiers/2019/05/7/1549220487-dyvp0n-xqaajsne.jpg`);
     message.channel.send(message.author.avatarURL);
-  }  else if (message.content.startsWith(`${prefix}loli`)) {
-    message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555964709-tenor.gif`);
   }  else if (message.content.startsWith(`${prefix}cheh`)) {
     message.channel.send(`https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif`);
-  }  else if (message.content.startsWith(`${prefix}octogone`)) {
-    message.channel.send(`Go octogone sans règles sous race !`);
-    message.channel.send(`https://66.media.tumblr.com/00adce6cac552d1126167f58628261bf/tumblr_pcrejxWhIh1usyygio2_400.gif`);
   }  else if (message.content.startsWith(`${prefix}fuck`)) {
     message.channel.send(`https://media1.tenor.com/images/56ad2a999554be01ad74497c0d1325b7/tenor.gif?itemid=10678828`);
   }  else if (message.content.startsWith(`${prefix}tera`)) {
     message.channel.send(`https://media.giphy.com/media/Y2mV4BtFdKy2E61CIU/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}slap`)) {
-    message.channel.send(`https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}again`)) {
     message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
-  }  else if (message.content.startsWith(`${prefix}cry`)) {
-    message.channel.send(`http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif`);
-  }  else if (message.content.startsWith(`${prefix}hug`)) {
-    message.channel.send(`:heart: :heart: :heart: :heart: :heart:`);
-    message.channel.send(`https://media1.tenor.com/images/efdd8f53689b1bb3437054d608156e95/tenor.gif?itemid=5101517`);
-  }  else if (message.content.startsWith(`${prefix}yaoi`)) {
-    message.channel.send(`:gay_pride_flag: :gay_pride_flag: ♂️♂️ :gay_pride_flag: :gay_pride_flag: `);
-    message.channel.send(`https://media.giphy.com/media/7z1xs4Fl9Kb8A/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}yuri`)) {
-    message.channel.send(`:gay_pride_flag: :gay_pride_flag: ♀️♀️ :gay_pride_flag: :gay_pride_flag: `);
-    message.channel.send(`https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}realy`)) {
     message.channel.send(`https://i.kym-cdn.com/photos/images/original/000/420/723/b6b.gif`);
   }
@@ -128,6 +110,181 @@ if (message.content.startsWith(`${prefix}yami`)) {
 
   } 
 
+  if (message.content.startsWith(`.hug`)) {
+    random();   
+
+     if (randnum == 0){
+         message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572155476402372608/1.gif`);
+        console.log(randnum);
+      }  else if (randnum == 1){
+         message.channel.send(`http://reve-of-manga.r.e.pic.centerblog.net/e92ee753.gif`);
+         console.log(randnum);
+       }  else if (randnum == 2){
+         message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572156072706572448/1.gif`);
+         console.log(randnum);
+       }  else if (randnum == 3){
+          message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572156251862204426/1.gif`);
+          console.log(randnum);
+       }  else if (randnum == 4){
+          message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572144619425366037/1.gif`);
+          console.log(randnum);
+        }  else if (randnum == 5){
+          message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572145015850139677/1.gif`);
+          console.log(randnum);
+   }   
+
+} 
+
+if (message.content.startsWith(`.slap`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://media0.giphy.com/media/a7HKjDb3UJ0kM/giphy.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572155325931847682/tenor_1.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://media.giphy.com/media/oL7evncYvZ9II/giphy.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://i.gifer.com/VF8X.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://i.kym-cdn.com/photos/images/newsfeed/001/220/426/e44.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://media.giphy.com/media/jLeyZWgtwgr2U/giphy.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.yaoi`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://media.giphy.com/media/7z1xs4Fl9Kb8A/giphy.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://i.pinimg.com/originals/00/a0/41/00a04108c1d9d5115fd2d13cc525924f.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://pa1.narvii.com/5784/62e791a69aec4cdf94476823e5349c039fffdc74_hq.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://media3.giphy.com/media/117UiFNyf7lLyw/giphy.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://media2.giphy.com/media/Z6ifX4I0TC5I4/giphy.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://68.media.tumblr.com/b7e83b12c14a93c7a72a50f97461578b/tumblr_onq3pnBNHi1vs4kyjo1_500.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.yuri`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572151132995059732/tenor.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://i.pinimg.com/originals/07/28/db/0728db11c7616a329bcc2fabe324491d.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://media0.giphy.com/media/qXHOq24Id1v9e/giphy.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://thumbs.gfycat.com/TatteredOrnateLaughingthrush-size_restricted.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://data.whicdn.com/images/98077221/original.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.octogone`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://66.media.tumblr.com/00adce6cac552d1126167f58628261bf/tumblr_pcrejxWhIh1usyygio2_400.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572150439018233888/1.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572153110798139422/1.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`http://66.media.tumblr.com/29778bf6e96d8424df02e0df22642e16/tumblr_nx5i5uVV0l1rvbl4vo7_540.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://media0.giphy.com/media/J0C5WPIhnfTQQ/giphy.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://i.gifer.com/TqQL.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.loli`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555964709-tenor.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/569990070908485668/1.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/569994492048834590/1.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/569993106112512002/1.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/569991047493451779/1.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570355611376550015/1.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+   if (message.content.startsWith(`.cry`)) {
+      random();   
+
+       if (randnum == 0){
+           message.channel.send(`http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif`);
+          console.log(randnum);
+        }  else if (randnum == 1){
+           message.channel.send(`https://66.media.tumblr.com/5b4e0848d8080db04dbfedf31a4869e2/tumblr_inline_or4whcrg1z1ueut6r_540.gif`);
+           console.log(randnum);
+         }  else if (randnum == 2){
+           message.channel.send(`https://media.giphy.com/media/Jt5rqhLQ6oOr4Jscog/giphy.gif`);
+           console.log(randnum);
+         }  else if (randnum == 3){
+            message.channel.send(`https://risibank.fr/cache/stickers/d1236/123624-full.gif`);
+            console.log(randnum);
+         }  else if (randnum == 4){
+            message.channel.send(`https://media1.tenor.com/images/5f1c93699e3d7e430674beda00bad1f5/tenor.gif?itemid=5455579`);
+            console.log(randnum);
+          }  else if (randnum == 5){
+            message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572146690774269966/1.gif`);
+            console.log(randnum);
+     }   
+
+  } 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
@@ -165,6 +322,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
 
   }
        
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
@@ -182,6 +340,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
             .addField("Réponse:", rep[reptaille]);
         message.channel.send(embed)
     }
+    
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
