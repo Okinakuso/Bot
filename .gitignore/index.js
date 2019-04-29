@@ -38,8 +38,6 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(message.author.avatarURL);
   }  else if (message.content.startsWith(`${prefix}cheh`)) {
     message.channel.send(`https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif`);
-  }  else if (message.content.startsWith(`${prefix}fuck`)) {
-    message.channel.send(`https://media1.tenor.com/images/56ad2a999554be01ad74497c0d1325b7/tenor.gif?itemid=10678828`);
   }  else if (message.content.startsWith(`${prefix}tera`)) {
     message.channel.send(`https://media.giphy.com/media/Y2mV4BtFdKy2E61CIU/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}again`)) {
@@ -101,7 +99,7 @@ if (message.content.startsWith(`${prefix}yami`)) {
             message.channel.send(`https://data.whicdn.com/images/245572887/original.gif`);
             console.log(randnum);
          }  else if (randnum == 4){
-            message.channel.send(`https://i.pinimg.com/originals/71/17/9b/71179bbe1f5213a169170b1b31da6a84.gif`);
+            message.channel.send(`https://media.giphy.com/media/kH01iRXfD6UPC/giphy.gif`);
             console.log(randnum);
           }  else if (randnum == 5){
             message.channel.send(`https://thumbs.gfycat.com/AcrobaticVillainousGossamerwingedbutterfly-max-1mb.gif`);
@@ -283,7 +281,132 @@ if (message.content.startsWith(`.loli`)) {
             console.log(randnum);
      }   
 
-  } 
+  }
+  
+  if (message.content.startsWith(`.fuck`)) {
+    random();   
+
+     if (randnum == 0){
+         message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572391161050824705/tenor.gif`);
+        console.log(randnum);
+      }  else if (randnum == 1){
+         message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572391163361755152/d.gif`);
+         console.log(randnum);
+       }  else if (randnum == 2){
+         message.channel.send(`https://i.gifer.com/JlQz.gif`);
+         console.log(randnum);
+       }  else if (randnum == 3){
+          message.channel.send(`https://thumbs.gfycat.com/AcademicCavernousArchaeopteryx-size_restricted.gif`);
+          console.log(randnum);
+       }  else if (randnum == 4){
+          message.channel.send(`https://media.giphy.com/media/OIF4hRTQlpKgw/giphy.gif`);
+          console.log(randnum);
+        }  else if (randnum == 5){
+          message.channel.send(`https://media.giphy.com/media/123lNjR1VHr1ao/giphy.gif`);
+          console.log(randnum);
+   }   
+
+} 
+
+if (message.content.startsWith(`.kiss`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://media3.giphy.com/media/FqBTvSNjNzeZG/giphy.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572393271398105108/tenor.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://media2.giphy.com/media/kU586ictpGb0Q/giphy.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://66.media.tumblr.com/5d51b3bbd64ccf1627dc87157a38e59f/tumblr_n5rfnvvj7H1t62gxao1_500.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://uploads.disquscdn.com/images/964bd0189d1674220997816c271470bf5f2c32860ee5bcf63d50031fbc82a0cd.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://i.imgur.com/eisk88U.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.lick`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572393547425120272/tenor.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://thumbs.gfycat.com/SomberUnderstatedAnophelesmosquito-size_restricted.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572394256640114709/tenor.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572394869524398090/tenorv.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572394879276154910/v.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572395317173944320/v_2.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.kawaii`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572167384484413444/1.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://data.whicdn.com/images/327118261/original.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://gifimage.net/wp-content/uploads/2017/11/gif-anime-kawaii-11.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://media2.giphy.com/media/11abxmfNqC8o00/giphy.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://thumbs.gfycat.com/ImpressiveHandsomeAiredaleterrier-small.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://66.media.tumblr.com/tumblr_mbj9xabY091rni0w9o1_r1_500.gif`);
+        console.log(randnum);
+ }   
+
+} 
+
+if (message.content.startsWith(`.pat`)) {
+  random();   
+
+   if (randnum == 0){
+       message.channel.send(`https://media.tenor.com/images/ad8357e58d35c1d63b570ab7e587f212/tenor.gif`);
+      console.log(randnum);
+    }  else if (randnum == 1){
+       message.channel.send(`https://i.imgur.com/2lacG7l.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`https://media.giphy.com/media/ARSp9T7wwxNcs/giphy.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://i.imgur.com/4ssddEQ.gif`);
+        console.log(randnum);
+     }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572396901186404352/vvv.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572396902125928448/vv.gif`);
+        console.log(randnum);
+ }   
+
+} 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
@@ -349,16 +472,16 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes du bot !" ,  "Voici le menu .help")
-      .addField("Pour les commandes ciblées" , ".help1")
-      .addField("Pour les commandes inutiles" , ".help2")
-      .addField("Pour les commandes pour jouer " , ".help3")
+      .addField("Pour les commandes ciblées" , ".help-1")
+      .addField("Pour les commandes inutiles" , ".help-2")
+      .addField("Pour les commandes pour jouer " , ".help-3")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
   }
 
     
-  if (message.content === ".help1") {
+  if (message.content === ".help-1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes ciblées " , ".yami.cora .illya .xam .golden ")
@@ -369,18 +492,19 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   }
 
     
-  if (message.content === ".help2") {
+  if (message.content === ".help-2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
-      .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again .fuck")
-      .addField("Les commandes inutiles 2" , ".yuri .yaoi .hug .slap .cry .realy")
+      .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again")
+      .addField("Les commandes inutiles 3" , ".yuri .yaoi .hug .slap .cry .realy")
+      .addField("Les commandes inutiles 4" , ".pat .fuck .kiss .kawaii .lick")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
   }
 
-  if (message.content === ".help3") {
+  if (message.content === ".help-3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes pour jouer" , ".skribbl .limite .bac .dice .8ball")
