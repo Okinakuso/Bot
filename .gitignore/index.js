@@ -23,10 +23,6 @@ bot.on('message', message => {
 
    if (message.content === ".avatar") {
     message.channel.send(message.author.avatarURL);
-    return;
-  } else {
-      let user = message.mentions.users.first(); // Mentioned user
-      let image = user.displayAvatarURL;
    }
     
 
