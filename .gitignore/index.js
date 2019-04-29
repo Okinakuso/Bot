@@ -44,6 +44,8 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
   }  else if (message.content.startsWith(`${prefix}realy`)) {
     message.channel.send(`https://i.kym-cdn.com/photos/images/original/000/420/723/b6b.gif`);
+  }  else if (message.content.startsWith(`${prefix}sauce`)) {
+    message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572399987825049605/20190429_143256.gif`);
   }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -498,7 +500,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
       .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again")
       .addField("Les commandes inutiles 3" , ".yuri .yaoi .hug .slap .cry .realy")
-      .addField("Les commandes inutiles 4" , ".pat .fuck .kiss .kawaii .lick")
+      .addField("Les commandes inutiles 4" , ".pat .fuck .kiss .kawaii .lick .sauce")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
