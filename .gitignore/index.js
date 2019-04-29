@@ -415,30 +415,6 @@ if (message.content.startsWith(`.pat`)) {
 }   
 
 
-if (message.content.startsWith(`.cat`)) {
-  random();   
-
-   if (randnum == 0){
-       message.channel.send(`http://25.media.tumblr.com/e60f80a75e70a30a9daeac0a80a6a7cc/tumblr_n1u8pk2OAM1trao0wo1_500.gif`);
-      console.log(randnum);
-    }  else if (randnum == 1){
-       message.channel.send(`https://static.fjcdn.com/gifs/Anime_ebb757_5470536.gif`);
-       console.log(randnum);
-     }  else if (randnum == 2){
-       message.channel.send(`http://24.media.tumblr.com/4f527f91cac82b39c1956c6e3f771555/tumblr_mqeregZSR21sv98gio1_500.gif`);
-       console.log(randnum);
-     }  else if (randnum == 3){
-        message.channel.send(`https://i.pinimg.com/originals/3a/46/19/3a4619e53f091dc9dd51d6c92d624b00.gif`);
-        console.log(randnum);
-     }  else if (randnum == 4){
-        message.channel.send(`https://media.giphy.com/media/wfBTUKEYpCcNi/giphy.gif`);
-        console.log(randnum);
-     }  else if (randnum == 5){
-        message.channel.send(`https://thumbs.gfycat.com/OrnerySlipperyGenet-size_restricted.gif`);
-        console.log(randnum);
- }    
-
-} 
 
 if (message.content.startWith(`.neko`)) {
   random();
