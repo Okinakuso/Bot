@@ -19,13 +19,21 @@ function random(min, max) {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 bot.on('message', message => {
 
-   if (message.content === ".avatar") {
+   if (message.content === ".avatare") {
     message.channel.send(message.author.avatarURL);
    }
     
+   let member = message.mentions.members.first() || message.guild.members.get(args[0]) || message.author;
+
+let embed = new Discord.RichEmbed() 
+	.setTitle(member.tag + '\' avatar')
+	.setImage(member.avatarURL);
+
+message.channel.send({embed}) 
+
+
 if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`t as cru que j allais dire pong ou quoi ? Dechet !`);
   } else if (message.content.startsWith(`${prefix}ching`)) {
