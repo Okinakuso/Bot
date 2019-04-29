@@ -498,7 +498,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
-      .addField("Les commandes inutiles 2" , ".loli .cheh .shit .octogone .again")
+      .addField("Les commandes inutiles 2" , ".loli .cheh .octogone .again")
       .addField("Les commandes inutiles 3" , ".yuri .yaoi .hug .slap .cry .realy")
       .addField("Les commandes inutiles 4" , ".pat .fuck .kiss .kawaii .lick .sauce")
     message.channel.sendEmbed(help_embed);
