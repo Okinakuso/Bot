@@ -61,9 +61,6 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
     message.channel.send(`https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}illya`)) {
-    message.channel.send(`Le sac a foutre supreme mais aussi notre GM`);
-    message.channel.send(`https://media1.tenor.com/images/1e0593d9bf7b27cde0be27007d00887e/tenor.gif?itemid=5531465`);
   }  else if (message.content.startsWith(`${prefix}xam`)) {
     message.channel.send(`Faite attention a vous il est comme ca tout le temps`);
     message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif`);
@@ -76,12 +73,6 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}tezer`)) {
     message.channel.send(`Paix et amour sont les mots qui le définissent!`);
     message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570348806437339144/1.gif`);
-  }  else if (message.content.startsWith(`${prefix}chou`)) {
-    message.channel.send(`Je suis une licooooooorne :heart: * :heart:`);
-    message.channel.send(`https://tenor.com/view/supernatural-unicorn-rainbow-tail-gif-5754797`);
-  }  else if (message.content.startsWith(`${prefix}kaisa`)) {
-    message.channel.send(`Je t'aime, tu es parfait comme tu es. Ne change jamais c: :heart: * :heart: `);
-    message.channel.send(`https://tenor.com/view/beer-unicorn-lets-get-drunk-gif-13996107`);
   }  else if (message.content.startsWith(`${prefix}lucy`)) {
     message.channel.send(`La meilleure amie de Milord et la future femme de Mme Su`);
     message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif`);
