@@ -22,9 +22,7 @@ function random(min, max) {
 
 bot.on('message', message => {
 
-  if (message.content.startsWith(`${prefix}avatar`)) {
-    message.channel.send(message.author.avatarURL);
-   }
+
     
 if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`t as cru que j allais dire pong ou quoi ? Dechet !`);
