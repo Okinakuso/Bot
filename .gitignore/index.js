@@ -21,17 +21,14 @@ function random(min, max) {
 
 bot.on('message', message => {
 
-   if (message.content === ".avatare") {
+   if (message.content === ".avatar") {
     message.channel.send(message.author.avatarURL);
+    return;
+  } else {
+      let user = message.mentions.users.first(); // Mentioned user
+      let image = user.displayAvatarURL;
    }
     
-   let member = message.mentions.members.first() || message.guild.members.get(args[0]) || message.author;
-
-let embed = new Discord.RichEmbed() 
-	.setTitle(member.tag + '\' avatar')
-	.setImage(member.avatarURL);
-
-message.channel.send({embed}) 
 
 
 if (message.content.startsWith(`${prefix}ping`)) {
