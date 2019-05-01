@@ -46,9 +46,6 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`https://i.kym-cdn.com/photos/images/original/000/420/723/b6b.gif`);
   }  else if (message.content.startsWith(`${prefix}sauce`)) {
     message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572399987825049605/20190429_143256.gif`);
-  }  else if (message.content.startsWith(`${prefix}jail`)) {
-    message.channel.send(`c est là où tu va aller `);
-    message.channel.send(`https://media1.giphy.com/media/l0HlxAqevo9mKD3UY/source.gif`);
   }  else if (message.content.startsWith(`${prefix}hungry`)) {
     message.channel.send(`va chercher a manger au lieu d avoir la flemme dechet `);
   }  
@@ -456,6 +453,131 @@ if (message.content.startsWith(`.neko`)) {
 
 }   
 
+if (message.content.startsWith(`.dance`)) {
+  random(); 
+
+  if (randnum == 0){
+       message.channel.send(`https://media.giphy.com/media/9gxhLXyJXqAhi/giphy-downsized-large.gif`);
+       console.log(randnum);
+      }  else if (randnum == 1){
+       message.channel.send(`https://img.fireden.net/a/image/1472/69/1472691290793.gif`);
+       console.log(randnum);
+     }  else if (randnum == 2){
+       message.channel.send(`http://static.fjcdn.com/gifs/Dance_059348_5568820.gif`);
+       console.log(randnum);
+     }  else if (randnum == 3){
+        message.channel.send(`https://thumbs.gfycat.com/RepulsiveCompassionateFrenchbulldog-size_restricted.gif`);
+        console.log(randnum);
+      }  else if (randnum == 4){
+        message.channel.send(`https://i.gifer.com/embedded/download/7A1e.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://data.whicdn.com/images/303436367/original.gif`);
+        console.log(randnum);
+ }   
+
+}    
+
+if (message.content.startsWith(`.smile`)) {
+  random(); 
+
+  if (randnum == 0){
+       message.channel.send(`https://media3.giphy.com/media/bqSkJ4IwNcoZG/giphy.gif`);
+       console.log(randnum);
+      }  else if (randnum == 1){
+       message.channel.send(`https://media3.giphy.com/media/LML5ldpTKLPelFtBfY/giphy.gif`);
+       console.log(randnum);
+      }  else if (randnum == 2){
+       message.channel.send(`https://media3.giphy.com/media/hRfgaMmfemUdG/giphy.gif`);
+       console.log(randnum);
+      }  else if (randnum == 3){
+        message.channel.send(`http://www.gifimili.com/gif/2018/02/monkey-d-luffy-sourire.gif`);
+        console.log(randnum);
+      }  else if (randnum == 4){
+        message.channel.send(`https://media0.giphy.com/media/hOVjFUBGhYoCY/source.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://media1.giphy.com/media/1dLjBU7jUenBZbu0nw/source.gif`);
+        console.log(randnum);
+ }   
+
+}   
+
+if (message.content.startsWith(`.laugh`)) {
+  random(); 
+
+  if (randnum == 0){
+       message.channel.send(`https://media.giphy.com/media/tnxOOIUL0BCLe/giphy.gif`);
+       console.log(randnum);
+      }  else if (randnum == 1){
+       message.channel.send(`https://data.whicdn.com/images/280502932/original.gif`);
+       console.log(randnum);
+      }  else if (randnum == 2){
+       message.channel.send(`https://media.tenor.com/images/b92a29ad9c6dbb13e9d90ac8362657d3/tenor.gif`);
+       console.log(randnum);
+      }  else if (randnum == 3){
+        message.channel.send(`https://media3.giphy.com/media/Yb0sZcOCQdG36/giphy.gif`);
+        console.log(randnum);
+      }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572911067362099364/tenor.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://media.giphy.com/media/8maVEb9ZMvdrq/giphy.gif`);
+        console.log(randnum);
+ }   
+
+}   
+
+if (message.content.startsWith(`.creepy`)) {
+  random(); 
+
+  if (randnum == 0){
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572908887922180136/1_1.gif`);
+       console.log(randnum);
+      }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572908909409337379/1_2.gif`);
+       console.log(randnum);
+      }  else if (randnum == 2){
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572909315866886164/1_3.gif`);
+       console.log(randnum);
+      }  else if (randnum == 3){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572914584176951296/1_5.gif`);
+        console.log(randnum);
+      }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572914599167393793/1_4.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/572915291110244352/1_6.gif`);
+        console.log(randnum);
+ }   
+
+}   
+
+if (message.content.startsWith(`.jail`)) {
+  random(); 
+
+  if (randnum == 0){
+       message.channel.send(`https://media1.giphy.com/media/l0HlxAqevo9mKD3UY/source.gif`);
+       console.log(randnum);
+      }  else if (randnum == 1){
+       message.channel.send(`https://data.whicdn.com/images/111155726/original.gif`);
+       console.log(randnum);
+      }  else if (randnum == 2){
+       message.channel.send(`http://nrpg-triunfoshinobi.weebly.com/uploads/2/3/2/5/23255148/2444174_orig.gif`);
+       console.log(randnum);
+      }  else if (randnum == 3){
+        message.channel.send(`https://i.gifer.com/Vwx.gif`);
+        console.log(randnum);
+      }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/573251864397611038/20190501_225018.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/573252117796487173/20190501_225524.gif`);
+        console.log(randnum);
+ }   
+
+}   
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
@@ -545,9 +667,10 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
       .addField("Les commandes inutiles" , ".ping .ching .anime .avatar .pute .tera")
-      .addField("Les commandes inutiles 2" , ".loli .cheh .octogone .again")
+      .addField("Les commandes inutiles 2" , ".loli .cheh .octogone .again .jail")
       .addField("Les commandes inutiles 3" , ".yuri .yaoi .hug .slap .cry .realy")
       .addField("Les commandes inutiles 4" , ".pat .fuck .kiss .kawaii .lick .sauce")
+      .addField("Les commandes inutiles 4" , ".creepy .cat .neko .dance .laugh .smile")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
