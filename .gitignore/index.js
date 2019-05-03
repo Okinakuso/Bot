@@ -642,7 +642,6 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addBlankField(true)
       .addField("Voici les commandes du bot !" ,  "Voici le menu Help :question: ")
       .addBlankField(true)
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
@@ -650,9 +649,9 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .addBlankField(true)
       .addField("Pour les commandes fun :put_litter_in_its_place:" , ".help-2")
       .addField("Déscription :" , "Ces commandes peuvent servir dans certaines situations.")
+      .addBlankField(true)
       .addField("Pour les commandes pour jouer :video_game:" , ".help-3")
       .addField("Déscription :" , "Ces commandes sont utile pour certain jeu proposer par le bot ou en ligne.")
-      .addBlankField(true)
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
