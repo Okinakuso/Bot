@@ -644,15 +644,22 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .setColor("#B638FF")
       .setTitle("Voici les commandes du bot :eyes:")
       .setDescription("Voici le menu Help :question:")
+      \*
+       *
+       */
       .setFooter("ce bot a était crée par YamiKurai", "https://cdn.discordapp.com/attachments/568118396676341800/573842232948424705/yami0.5.png")
       .setImage("https://cdn.discordapp.com/attachments/373595246056964106/573843208786935818/5be.gif")
       .setThumbnail("https://cdn.discordapp.com/attachments/568118396676341800/573842967777902622/yami-black-clover-1024x576.jpg")
-      .addBlankField(true)
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
       .addField("Déscription :" , "Elles désigne des connaissances du créateur.")
-      .addBlankField(true)
+      \*
+       *
+       */
       .addField("Pour les commandes fun :put_litter_in_its_place:" , ".help-2")
       .addField("Déscription :" , "Elles peuvent servir dans certaines situations.")
+      \*
+       *
+       */
       .addBlankField(true)
       .addField("Pour les commandes pour jouer :video_game:" , ".help-3")
       .addField("Déscription :" , "Elles sont utile pour certain jeu proposer par le bot ou en ligne.")
