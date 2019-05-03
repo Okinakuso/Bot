@@ -642,7 +642,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Voici les commandes du bot !" ,  "Voici le menu Help :question: ")
+      .addField("Voici les commandes du bot :eyes:" ,  "Voici le menu Help :question: ")
       .addBlankField(true)
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
       .addField("Déscription :" , "Ces commandes désigne des connaissances du créateur.")
