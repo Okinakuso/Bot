@@ -649,13 +649,13 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .setImage("https://cdn.discordapp.com/attachments/373595246056964106/573843208786935818/5be.gif")
       .setThumbnail("https://cdn.discordapp.com/attachments/568118396676341800/573842967777902622/yami-black-clover-1024x576.jpg")
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
-      .addField("Elles désigne des connaissances du créateur.")
+      .addField("" , "Elles désigne des connaissances du créateur.")
       .addBlankField(true)
       .addField("Pour les commandes fun :put_litter_in_its_place:" , ".help-2")
-      .addField("Elles peuvent servir dans certaines situations.")
+      .addField("" , "Elles peuvent servir dans certaines situations.")
       .addBlankField(true)
       .addField("Pour les commandes pour jouer :video_game:" , ".help-3")
-      .addField("Elles sont utile pour certain jeu proposer par le bot ou en ligne.")
+      .addField("" , "Elles sont utile pour certain jeu proposer par le bot ou en ligne.")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
