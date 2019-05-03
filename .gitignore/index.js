@@ -647,7 +647,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .addField(" " , " ")
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
       .addField(" " , "Ces commandes désigne des connaissances du créateur.")
-      .addField(" " , "")
+      .addField(" " , " ")
       .addField("Pour les commandes fun :put_litter_in_its_place:" , ".help-2")
       .addField(" " , "Ces commandes peuvent servir dans certaines situations.")
       .addField("Pour les commandes pour jouer :video_game:" , ".help-3")
