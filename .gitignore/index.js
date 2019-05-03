@@ -642,7 +642,11 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Voici les commandes du bot :eyes:" ,  "Voici le menu Help :question: ")
+      .setTitle("Voici les commandes du bot :eyes:")
+      .setDescription("Voici le menu Help :question:")
+      .setFooter("ce bot a était crée par YamiKurai", "https://cdn.discordapp.com/attachments/568118396676341800/573842232948424705/yami0.5.png")
+      .setImage("https://cdn.discordapp.com/attachments/373595246056964106/573843208786935818/5be.gif")
+      .setThumbnail("https://cdn.discordapp.com/attachments/568118396676341800/573842967777902622/yami-black-clover-1024x576.jpg")
       .addBlankField(true)
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
       .addField("Déscription :" , "Ces commandes désigne des connaissances du créateur.")
