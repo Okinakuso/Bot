@@ -38,8 +38,6 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(message.author.avatarURL);
   }  else if (message.content.startsWith(`${prefix}cheh`)) {
     message.channel.send(`https://thumbs.gfycat.com/AngryBrokenKodiakbear-max-1mb.gif`);
-  }  else if (message.content.startsWith(`${prefix}tera`)) {
-    message.channel.send(`https://media.giphy.com/media/Y2mV4BtFdKy2E61CIU/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}again`)) {
     message.channel.send(`https://media1.tenor.com/images/1bf906f1d7b433f8ed538f5ed00cb22e/tenor.gif?itemid=13933485`);
   }  else if (message.content.startsWith(`${prefix}realy`)) {
@@ -58,22 +56,6 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
     message.channel.send(`https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}xam`)) {
-    message.channel.send(`Faite attention a vous il est comme ca tout le temps`);
-    message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555964641-9aqn.gif`);
-  }  else if (message.content.startsWith(`${prefix}golden`)) {
-    message.channel.send(`Wallah c'est une victime`);
-    message.channel.send(`https://media.giphy.com/media/pPQyXGxwx272E/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}louhan`)) {
-    message.channel.send(`Prenez garde à son futur 28M dps!`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570343991292198932/20190423_222312.gif`);
-  }  else if (message.content.startsWith(`${prefix}tezer`)) {
-    message.channel.send(`Paix et amour sont les mots qui le définissent!`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570348806437339144/1.gif`);
-  }  else if (message.content.startsWith(`${prefix}lucy`)) {
-    message.channel.send(`La meilleure amie de Milord et la future femme de Mme Su`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570321500238774304/20190423_205336.gif`);
-  } 
     
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
@@ -665,8 +647,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes ciblées " , ".yami.cora .illya .xam .golden ")
-      .addField("Les commandes ciblées 2" , ".louhan .chou .kaisa .lucy .tezer .milord")
+      .addField("Les commandes ciblées " , ".yami.cora ")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
@@ -676,7 +657,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-2") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes fun" , ".ping .ching .anime .avatar .pute .tera")
+      .addField("Les commandes fun" , ".ping .ching .anime .avatar .pute ")
       .addField("Les commandes fun 2" , ".loli .cheh .octogone .again .jail")
       .addField("Les commandes fun 3" , ".yuri .yaoi .hug .slap .cry .realy")
       .addField("Les commandes fun 4" , ".pat .fuck .kiss .kawaii .lick .sauce")
