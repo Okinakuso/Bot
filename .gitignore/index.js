@@ -56,7 +56,7 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
     message.channel.send(`https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif`);
-    
+  }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
    if (message.content.startsWith(`.rage`)) {
@@ -647,7 +647,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes ciblées " , ".yami.cora ")
+      .addField("Les commandes ciblées " , ".yami .cora ")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
