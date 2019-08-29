@@ -234,7 +234,7 @@ if (message.content.startsWith(`.loli`)) {
 
 } 
 
-   if (message.content.startsWith(`.cry`)) {
+if (message.content.startsWith(`.cry`)) {
       random();   
 
        if (randnum == 0){
@@ -254,12 +254,12 @@ if (message.content.startsWith(`.loli`)) {
             console.log(randnum);
           }  else if (randnum == 5){
             message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572146690774269966/1.gif`);
-            console.log(randnum);
-     }   
+        console.log(randnum);
+ }   
 
-  }
+} 
   
-  if (message.content.startsWith(`.fuck`)) {
+if (message.content.startsWith(`.fuck`)) {
     random();   
 
      if (randnum == 0){
@@ -280,7 +280,7 @@ if (message.content.startsWith(`.loli`)) {
         }  else if (randnum == 5){
           message.channel.send(`https://media.giphy.com/media/123lNjR1VHr1ao/giphy.gif`);
           console.log(randnum);
-   }   
+ }   
 
 } 
 
