@@ -1,12 +1,12 @@
 {
-  "name": "yami",
+  "name": "yamii",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Okina",
+  "author": "Yamikurai",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2"
