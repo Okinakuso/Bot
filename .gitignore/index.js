@@ -59,8 +59,8 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
-   if (message.content.startsWith(`.rage`)) {
-      random();   
+if (message.content.startsWith(`.rage`)) {
+  random();   
 
        if (randnum == 0){
            message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/570625547319902208/ezgif.com-gif-maker.gif`);
@@ -79,13 +79,13 @@ if (message.content.startsWith(`${prefix}yami`)) {
             console.log(randnum);
           }  else if (randnum == 5){
             message.channel.send(`https://thumbs.gfycat.com/AcrobaticVillainousGossamerwingedbutterfly-max-1mb.gif`);
-            console.log(randnum);
-     }   
+        console.log(randnum);
+ }   
 
-  } 
+} 
 
-  if (message.content.startsWith(`.hug`)) {
-    random();   
+if (message.content.startsWith(`.hug`)) {
+  random();   
 
      if (randnum == 0){
          message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572155476402372608/1.gif`);
@@ -104,8 +104,8 @@ if (message.content.startsWith(`${prefix}yami`)) {
           console.log(randnum);
         }  else if (randnum == 5){
           message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572145015850139677/1.gif`);
-          console.log(randnum);
-   }   
+        console.log(randnum);
+ }   
 
 } 
 
@@ -235,7 +235,7 @@ if (message.content.startsWith(`.loli`)) {
 } 
 
 if (message.content.startsWith(`.cry`)) {
-      random();   
+  random();    
 
        if (randnum == 0){
            message.channel.send(`http://66.media.tumblr.com/tumblr_m8ojbcznQ61rz5p5po3_500.gif`);
@@ -260,7 +260,7 @@ if (message.content.startsWith(`.cry`)) {
 } 
   
 if (message.content.startsWith(`.fuck`)) {
-    random();   
+  random();   
 
      if (randnum == 0){
          message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572391161050824705/tenor.gif`);
@@ -279,7 +279,7 @@ if (message.content.startsWith(`.fuck`)) {
           console.log(randnum);
         }  else if (randnum == 5){
           message.channel.send(`https://media.giphy.com/media/123lNjR1VHr1ao/giphy.gif`);
-          console.log(randnum);
+        console.log(randnum);
  }   
 
 } 
