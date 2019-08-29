@@ -600,22 +600,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
        
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-    if (!message.guild) return
-    let args = message.content.trim().split(/ +/g)
-   
-    if (args[0].toLocaleLowerCase() === prefix + '8ball'){
-        if (!args[0]) return message.channel.send("Veuillez **poser une question** :x:")
-        let rep = ["Gros retourne sur LGEL et me fait pas chier :middle_finger: ", "Pas d'avis :shrug: ", "Balec :face_palm:", "Faut pas rêver", "C'est non :frowning: ", "Impossible :no_good:", "N'y compte pas dechet :recycle: ", "Tu peux compter dessus :upside_down: ", "Sans aucun doute :no_mouth: ", "D'après moi oui gros", "Une chance sur deux", "Gros j'ai pas ton temps ,j'ai un taff moi!", "Ouais gros"];
-        let reptaille = Math.floor((Math.random() * rep.length));
-        let question = args.slice(0).join(" ");
- 
-        let embed = new Discord.RichEmbed()
-            .setAuthor(message.author.tag)
-            .setColor("PURPLE")
-            .addField("Question:", question)
-            .addField("Réponse:", rep[reptaille]);
-        message.channel.send(embed)
-    }
+
     
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
