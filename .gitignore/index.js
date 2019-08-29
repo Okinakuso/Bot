@@ -50,7 +50,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
- if (message.content.startsWith(`${prefix}yami`)) {
+if (message.content.startsWith(`${prefix}yami`)) {
     message.channel.send(`Un homme qui ressent le besoin d etre superieur aux autres.`);
     message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555965169-tumblr-pew9fkpgof1xqsds7o2-500.gif`);
   }  else if (message.content.startsWith(`${prefix}cora`)) {
@@ -59,7 +59,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
- if (message.content.startsWith(`.rage`)) {
+if (message.content.startsWith(`.rage`)) {
   random();   
 
        if (randnum == 0){
@@ -84,7 +84,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.hug`)) {
+if (message.content.startsWith(`.hug`)) {
   random();   
 
      if (randnum == 0){
@@ -109,7 +109,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.slap`)) {
+if (message.content.startsWith(`.slap`)) {
   random();   
 
    if (randnum == 0){
@@ -134,7 +134,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.yaoi`)) {
+if (message.content.startsWith(`.yaoi`)) {
   random();   
 
    if (randnum == 0){
@@ -159,7 +159,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.yuri`)) {
+if (message.content.startsWith(`.yuri`)) {
   random();   
 
    if (randnum == 0){
@@ -184,7 +184,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.octogone`)) {
+if (message.content.startsWith(`.octogone`)) {
   random();   
 
    if (randnum == 0){
@@ -209,7 +209,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.loli`)) {
+if (message.content.startsWith(`.loli`)) {
   random();   
 
    if (randnum == 0){
@@ -234,7 +234,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.cry`)) {
+if (message.content.startsWith(`.cry`)) {
   random();    
 
        if (randnum == 0){
@@ -259,7 +259,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
   
- if (message.content.startsWith(`.fuck`)) {
+if (message.content.startsWith(`.fuck`)) {
   random();   
 
      if (randnum == 0){
@@ -284,7 +284,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.kiss`)) {
+if (message.content.startsWith(`.kiss`)) {
   random();   
 
    if (randnum == 0){
@@ -309,7 +309,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.lick`)) {
+if (message.content.startsWith(`.lick`)) {
   random();   
 
    if (randnum == 0){
@@ -334,7 +334,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.kawaii`)) {
+if (message.content.startsWith(`.kawaii`)) {
   random();   
 
    if (randnum == 0){
@@ -359,7 +359,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 } 
 
- if (message.content.startsWith(`.pat`)) {
+if (message.content.startsWith(`.pat`)) {
   random();   
 
    if (randnum == 0){
@@ -384,7 +384,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 }   
     
- if (message.content.startsWith(`.cat`)) {
+if (message.content.startsWith(`.cat`)) {
   random();   
 
    if (randnum == 0){
@@ -410,7 +410,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 }   
 
 
- if (message.content.startsWith(`.neko`)) {
+if (message.content.startsWith(`.neko`)) {
   random(); 
 
   if (randnum == 0){
@@ -435,7 +435,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 }   
 
- if (message.content.startsWith(`.dance`)) {
+if (message.content.startsWith(`.dance`)) {
   random(); 
 
   if (randnum == 0){
@@ -460,7 +460,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 }    
 
- if (message.content.startsWith(`.smile`)) {
+if (message.content.startsWith(`.smile`)) {
   random(); 
 
   if (randnum == 0){
@@ -485,7 +485,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 }   
 
- if (message.content.startsWith(`.laugh`)) {
+if (message.content.startsWith(`.laugh`)) {
   random(); 
 
   if (randnum == 0){
@@ -510,7 +510,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 }   
 
- if (message.content.startsWith(`.creepy`)) {
+if (message.content.startsWith(`.creepy`)) {
   random(); 
 
   if (randnum == 0){
@@ -535,7 +535,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 
 }   
 
- if (message.content.startsWith(`.jail`)) {
+if (message.content.startsWith(`.jail`)) {
   random(); 
 
   if (randnum == 0){
@@ -564,7 +564,7 @@ if (message.content.startsWith(`${prefix}ping`)) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
- if (message.content.startsWith(`${prefix}skribbl`)) {
+if (message.content.startsWith(`${prefix}skribbl`)) {
     message.channel.send(`https://skribbl.io/`);
   }  else if (message.content.startsWith(`${prefix}limit`)) {
     message.channel.send(`https://limitelimiteenligne.com/#/choose`);
