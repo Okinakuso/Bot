@@ -445,7 +445,7 @@ if (message.content.startsWith(`.dance`)) {
        message.channel.send(`https://img.fireden.net/a/image/1472/69/1472691290793.gif`);
        console.log(randnum);
      }  else if (randnum == 2){
-       message.channel.send(`http://static.fjcdn.com/gifs/Dance_059348_5568820.gif`);
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/617696847284273181/Dance_059348_5568820.gif`);
        console.log(randnum);
      }  else if (randnum == 3){
         message.channel.send(`https://thumbs.gfycat.com/RepulsiveCompassionateFrenchbulldog-size_restricted.gif`);
