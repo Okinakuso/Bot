@@ -56,6 +56,12 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
     message.channel.send(`https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif`);
+  }  else if (message.content.startsWith(`${prefix}timmoo`)) {
+    message.channel.send(`Le maire de notre hameau et aussi l'homme le plus afk de notre hameau !`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780893216309248/dddd.gif`);
+  }  else if (message.content.startsWith(`${prefix}Shini`)) {
+    message.channel.send(`Le plus gros enfoiré mais aussi le tombeur de ces dames !`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780249881509888/3274668486_1_2_kRGLWB2L.gif`);
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
