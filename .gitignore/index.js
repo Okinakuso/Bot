@@ -672,7 +672,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes ciblées " , ".yami .cora ")
+      .addField("Les commandes ciblées " , ".yami .cora .timmoo .shini ")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
@@ -686,7 +686,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .addField("Les commandes fun 2" , ".loli .cheh .octogone .again .jail")
       .addField("Les commandes fun 3" , ".yuri .yaoi .hug .slap .cry .realy")
       .addField("Les commandes fun 4" , ".pat .fuck .kiss .kawaii .lick .sauce")
-      .addField("Les commandes fun 4" , ".creepy .cat .neko .dance .laugh .smile")
+      .addField("Les commandes fun 4" , ".creepy .cat .neko .dance .laugh .smile .suicide")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help2 demandée !");
       
