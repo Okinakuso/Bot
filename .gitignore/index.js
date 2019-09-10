@@ -63,7 +63,7 @@ if (message.content.startsWith(`${prefix}yami`)) {
     message.channel.send(`Le plus gros enfoiré mais aussi le tombeur de ces dames !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780249881509888/3274668486_1_2_kRGLWB2L.gif`);
   }  else if (message.content.startsWith(`${prefix}oxamoxa`)) {
-    message.channel.send(`L'homme au plus de 45000 game spec !`);
+    message.channel.send(`L'homme au plus de 45000 games spec !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620782179659808779/tumblr_b20bf81f900213e8a087eb24b65a7407_00ef1861_400.gif`);
   }  else if (message.content.startsWith(`${prefix}nott`)) {
     message.channel.send(`La seul femme au monde qui trouve tout mignon !`);
