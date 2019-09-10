@@ -51,17 +51,23 @@ if (message.content.startsWith(`${prefix}ping`)) {
     
     
 if (message.content.startsWith(`${prefix}yami`)) {
-    message.channel.send(`Un homme qui ressent le besoin d etre superieur aux autres.`);
-    message.channel.send(`https://image.noelshack.com/fichiers/2019/17/1/1555965169-tumblr-pew9fkpgof1xqsds7o2-500.gif`);
+    message.channel.send(`Un homme qui ressent le besoin constant d'etre superieur aux autres.`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620784777234219010/az.gif`);
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
-    message.channel.send(`https://media.giphy.com/media/bm2O3nXTcKJeU/giphy.gif`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620784161262796800/giphy.gif`);
   }  else if (message.content.startsWith(`${prefix}timmoo`)) {
     message.channel.send(`Le maire de notre hameau et aussi l'homme le plus afk de notre hameau !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780893216309248/dddd.gif`);
-  }  else if (message.content.startsWith(`${prefix}Shini`)) {
+  }  else if (message.content.startsWith(`${prefix}shini`)) {
     message.channel.send(`Le plus gros enfoiré mais aussi le tombeur de ces dames !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780249881509888/3274668486_1_2_kRGLWB2L.gif`);
+  }  else if (message.content.startsWith(`${prefix}oxamoxa`)) {
+    message.channel.send(`L'homme au plus de 45000 game spec !`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620782179659808779/tumblr_b20bf81f900213e8a087eb24b65a7407_00ef1861_400.gif`);
+  }  else if (message.content.startsWith(`${prefix}nott`)) {
+    message.channel.send(`La seul femme au monde qui trouve tout mignon !`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620783594071130122/tumblr_mm1ebg2UlL1sovif0o2_500.gif`);
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
@@ -678,7 +684,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes ciblées " , ".yami .cora .timmoo .shini ")
+      .addField("Les commandes ciblées " , ".yami .cora .timmoo .shini .oxamoxa .nott")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
