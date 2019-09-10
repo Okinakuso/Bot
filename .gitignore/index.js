@@ -560,6 +560,31 @@ if (message.content.startsWith(`.jail`)) {
 
 }   
 
+    
+if (message.content.startsWith(`.suicide`)) {
+  random(); 
+
+  if (randnum == 0){
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620777949397909539/tumblr_lxfqnyYrAX1qio1obo1_500.gif`);
+       console.log(randnum);
+      }  else if (randnum == 1){
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620777951545393152/tenor.gif`);
+       console.log(randnum);
+      }  else if (randnum == 2){
+       message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620777955223928842/photofunky.gif`);
+       console.log(randnum);
+      }  else if (randnum == 3){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620777960433254400/source.gif`);
+        console.log(randnum);
+      }  else if (randnum == 4){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620777961204744192/original.gif`);
+        console.log(randnum);
+      }  else if (randnum == 5){
+        message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620777958411337728/EquatorialGleefulArabianhorse-size_restricted.gif`);
+        console.log(randnum);
+ }   
+
+}   
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
