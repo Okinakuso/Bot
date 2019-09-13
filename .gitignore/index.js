@@ -68,6 +68,9 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}nott`)) {
     message.channel.send(`La seul femme au monde qui trouve tout mignon !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620783594071130122/tumblr_mm1ebg2UlL1sovif0o2_500.gif`);
+  }  else if (message.content.startsWith(`${prefix}coocoun`)) {
+    message.channel.send(`L'homme le plus gentil de ce discord a votre service !`);
+    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/622095767942856715/3140467858_1_2_v6qUkaC8.gif`);
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
