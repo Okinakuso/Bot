@@ -46,7 +46,9 @@ if (message.content.startsWith(`${prefix}ping`)) {
     message.channel.send(`https://cdn.discordapp.com/attachments/568118396676341800/572399987825049605/20190429_143256.gif`);
   }  else if (message.content.startsWith(`${prefix}hungry`)) {
     message.channel.send(`va chercher a manger au lieu d avoir la flemme dechet `);
-  }  
+  }   else if (message.content.startsWith(`${prefix}rateau`)) {
+    message.channel.send(`https://cdn.discordapp.com/attachments/611914296485609475/622176885660581889/unknown.png`);
+  } 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
