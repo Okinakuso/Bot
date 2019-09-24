@@ -62,7 +62,7 @@ if (message.content.startsWith(`${prefix}yami`)) {
     message.channel.send(`Le maire de notre hameau et aussi l'homme le plus afk de notre hameau !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780893216309248/dddd.gif`);
   }  else if (message.content.startsWith(`${prefix}shini`)) {
-    message.channel.send(`Le plus gros enfoiré mais aussi le tombeur de ces dames !`);
+    message.channel.send(`Le plus gros enfoiré et c'est tout !`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780249881509888/3274668486_1_2_kRGLWB2L.gif`);
   }  else if (message.content.startsWith(`${prefix}oxamoxa`)) {
     message.channel.send(`L'homme au plus de 45000 games spec !`);
