@@ -58,21 +58,7 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620784161262796800/giphy.gif`);
-  }  else if (message.content.startsWith(`${prefix}timmoo`)) {
-    message.channel.send(`Le maire de notre hameau et aussi l'homme le plus afk de notre hameau !`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780893216309248/dddd.gif`);
-  }  else if (message.content.startsWith(`${prefix}shini`)) {
-    message.channel.send(`Le plus gros enfoiré mais aussi le tombeur de ces dames  !`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620780249881509888/3274668486_1_2_kRGLWB2L.gif`);
-  }  else if (message.content.startsWith(`${prefix}oxamoxa`)) {
-    message.channel.send(`L'homme au plus de 45000 games spec !`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620782179659808779/tumblr_b20bf81f900213e8a087eb24b65a7407_00ef1861_400.gif`);
-  }  else if (message.content.startsWith(`${prefix}nott`)) {
-    message.channel.send(`La seul femme au monde qui trouve tout mignon !`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620783594071130122/tumblr_mm1ebg2UlL1sovif0o2_500.gif`);
-  }  else if (message.content.startsWith(`${prefix}coocoun`)) {
-    message.channel.send(`L'homme le plus gentil de ce discord a votre service !`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/622095767942856715/3140467858_1_2_v6qUkaC8.gif`);
+  } message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/622095767942856715/3140467858_1_2_v6qUkaC8.gif`);
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
@@ -679,7 +665,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .addField("Déscription :" , "Elles peuvent servir dans certaines situations.")
       .addBlankField(true)
       .addField("Pour les commandes pour jouer :video_game:" , ".help-3")
-      .addField("Déscription :" , "Elles sont utile pour certain jeu proposer par le bot ou en ligne.")
+      .addField("Déscription :" , "Elles sont utiles pour certains jeu proposer par le bot ou en ligne.")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
