@@ -58,7 +58,6 @@ if (message.content.startsWith(`${prefix}yami`)) {
   }  else if (message.content.startsWith(`${prefix}cora`)) {
     message.channel.send(`La plus belle femme du monde et qui est aussi la futur femme de Yami`);
     message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/620784161262796800/giphy.gif`);
-    message.channel.send(`https://cdn.discordapp.com/attachments/373595246056964106/622095767942856715/3140467858_1_2_v6qUkaC8.gif`);
   }  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
