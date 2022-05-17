@@ -595,6 +595,8 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
     message.channel.send(`https://skribbl.io/`);
   }  else if (message.content.startsWith(`${prefix}limit`)) {
     message.channel.send(`https://limitelimiteenligne.com/#/choose`);
+        }  else if (message.content.startsWith(`${prefix}sutom`)) {
+    message.channel.send(`https://sutom.nocle.fr`);
   }  else if (message.content.startsWith(`${prefix}bac`)) {
     message.channel.send(`https://petitbacenligne.net/new-game.xhtml`);
   }               
@@ -654,17 +656,17 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
       .setTitle("Voici les commandes du bot :eyes:")
       .setDescription("Voici le menu Help :question:")
       .addBlankField(true)
-      .setFooter("ce bot a était crée par YamiKurai", "https://cdn.discordapp.com/attachments/568118396676341800/573842232948424705/yami0.5.png")
-      .setImage("https://cdn.discordapp.com/attachments/373595246056964106/573843208786935818/5be.gif")
-      .setThumbnail("https://cdn.discordapp.com/attachments/568118396676341800/573842967777902622/yami-black-clover-1024x576.jpg")
+      .setFooter("ce bot a été créé par Yamini ", "https://media.discordapp.net/attachments/456755534755004428/976092750363631697/20200405_134859.jpg")
+      .setImage("")
+      .setThumbnail("https://media.discordapp.net/attachments/456755534755004428/976094345600073759/1200px-VLC_Icon.svg.png")
       .addField("Pour les commandes ciblées :information_desk_person:" , ".help-1")
-      .addField("Déscription :" , "Elles désigne des connaissances du créateur.")
+      .addField("Description :" , "Elles désigne des connaissances du créateur.")
       .addBlankField(true)
       .addField("Pour les commandes fun :put_litter_in_its_place:" , ".help-2")
       .addField("Déscription :" , "Elles peuvent servir dans certaines situations.")
       .addBlankField(true)
-      .addField("Pour les commandes pour jouer :video_game:" , ".help-3")
-      .addField("Déscription :" , "Elles sont utiles pour certains jeu proposer par le bot ou en ligne.")
+      .addField("Pour les commandes concernant des mini-jeux :video_game:" , ".help-3")
+      .addField("Déscription :" , "Elles sont utiles pour certains jeux proposé par le bot ou en ligne.")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help demandée !");
 
@@ -674,7 +676,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-1") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes ciblées " , ".yami .cora .timmoo .shini .oxamoxa .nott")
+      .addField("Les commandes ciblées " , ".yami .cora")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help1 demandée !");
       
@@ -697,7 +699,7 @@ if (message.content.startsWith(`${prefix}skribbl`)) {
   if (message.content === ".help-3") {
     var help_embed = new Discord.RichEmbed()
       .setColor("#B638FF")
-      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .dice .8ball")
+      .addField("Les commandes pour jouer" , ".skribbl .limite .bac .dice .8ball .sutom")
     message.channel.sendEmbed(help_embed);
     console.log("commande Help3 demandée !");
       
